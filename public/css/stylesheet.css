@@ -1,0 +1,769 @@
+@charset "UTF-8";
+
+/*  */
+
+.GBAY{
+	background: rgba(0, 0, 0, 0);
+	position:absolute;
+	color: #ffffff;
+	width: 11.44%;
+	height: 10%;
+	margin-top: 2%;
+	margin-left: 9%;
+	font-size: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo_header{
+	margin-top: -8.65%;
+	margin-left: -7%;
+	height: 50%;
+	width: 25%;
+	border: 1px solid rgba(255, 255, 255, 0);
+
+}
+.homebutton_logo {
+	position: absolute;
+    background-color: rgba(216, 15, 15, 0);
+    border: none;
+    color: white;;
+    margin-top: 0.7%;
+    margin-left: 0.5%;
+	width: 8%;
+	height: 15%;
+
+}
+#warenkorb_logo{
+	margin-top: 0.99%;
+	margin-left: 82.3%;
+	height: 3%;
+	width: 1.5%;
+	border: 1px solid rgba(255, 255, 255, 0);	
+}
+.warenkorb_logo{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0.7%;
+    margin-left: 82%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;	
+}
+
+
+
+
+#downline{
+	margin-top: 68.65%;
+	margin-left: 0%;
+	position: absolute;
+	height: 250px;
+	width: 99%;
+	background-color: rgba(77, 77, 186, 0.11);
+}
+
+#downline2{
+	margin-top: 81.79%;
+	margin-left: 0%;
+	position: absolute;
+	height: 270px;
+	width: 99%;
+	background-color: rgba(32, 32, 118, 0);
+}
+
+#dashedborder{
+	position: absolute;
+	margin-top: 90%;
+	margin-left: 25%;
+	height: 0%;
+	width: 50%;
+	border-style: dotted;
+	border-width: 1px;
+	color: rgba(0, 0, 0, 0.32);
+}
+
+
+#banner_header{
+	margin-top: -0.22%;
+	margin-left: 0%;
+	position: auto;
+	height: 20%;
+	width: 99%;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+/* h9{
+	position: absolute;
+	margin-top: 72%;
+	margin-left: 38%;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 1;
+} */
+
+p,GBAY-Reg{
+	position: absolute;
+	margin-top: 72%;
+	margin-left: 38%;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.reg_button{
+	position: absolute;
+    background-color: rgba(0, 71, 215, 0.72);
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 75.7%;
+    margin-left: 30.5%;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;	
+	border-radius: 8px 8px 8px 8px;
+}
+
+/*Wrapper*/
+.wrapper{
+	margin: auto;
+	width: 70%;
+	height: auto;
+}
+
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+/*PC Button---------------------------------------------------------------------*/
+
+.dropbtn1 {
+	background-color: rgb(255, 255, 255);
+	color: rgba(0, 71, 215, 0.72);
+	padding: 8.33%;
+	font-size: 27px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px 8px 1px 1px;
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+	background-color: #dadada;
+}
+
+.pcbutton {
+	position: absolute;
+	display: inline-block;
+	margin-left: 0%;
+	margin-top: 7.29%;
+}
+
+
+.pcbutton-content1 {
+	display: none;
+	position: absolute;
+	background-color: rgba(249, 16, 249, 0);
+	min-width: 152px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.23);
+	font-size: 19px;
+	border-radius: 1px 1px 8px 8px;
+}
+
+.pcbutton-content1 a {
+	color: black;
+	padding: 8px 14px;
+	text-decoration: blink;
+	display: block;
+}
+
+.pcbutton-content1 a:hover {background-color: #f1f1f1}
+
+.show1 {display:block;}
+
+
+
+/*Monitor Button------------------------------------------------------------------*/
+
+.dropbtn2 {
+	background-color: rgb(255, 255, 255);
+	color: rgba(0, 71, 215, 0.72);
+	padding: 11.5%;
+	font-size: 27px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px 8px 1px 1px;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+	background-color: #dadada;
+}
+
+.monitorbutton {
+	position:absolute;
+	display: inline-block;
+	margin-left: 21%;
+	margin-top: 7.29%;
+}
+
+.monitorbutton-content2 {
+	display: none;
+	position: absolute;
+	background-color: rgba(249, 16, 249, 0);
+	min-width: 115px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size: 19px;
+}
+
+.monitorbutton-content2 a {
+	color: black;
+	padding: 8px 14px;
+	text-decoration: none;
+	display: block;
+}
+
+.monitorbutton-content2 a:hover {background-color: #f1f1f1}
+
+.show2 {display:block;}
+
+
+/*Zubeh?r Button----------------------------------------------------------------*/
+
+.dropbtn3 {
+	background-color: rgb(255, 255, 255);
+	color: rgba(0, 71, 215, 0.72);
+	padding: 9.1%;
+	font-size: 27px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px 8px 1px 1px;
+}
+
+.dropbtn3:hover, .dropbtn3:focus {
+	background-color: #dadada;
+}
+
+.zubehoerbutton {
+	position:absolute;
+	display: inline-block;
+	margin-left: 40%;
+	margin-top: 7.29%;
+}
+
+.zubehoerbutton-content3 {
+	display: none;
+	position: absolute;
+	background-color: rgba(249, 16, 249, 0);
+	min-width: 139px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size:19px;
+}
+
+.zubehoerbutton-content3 a {
+	color: black;
+	padding: 8px 14px;
+	text-decoration: none;
+	display: block;
+}
+
+.zubehoerbutton-content3 a:hover {background-color: #f1f1f1}
+
+.show3 {display:block;}
+
+
+/*Konsolen Button-----------------------------------------------------------------*/
+
+.dropbtn4 {
+	background-color: rgb(255, 255, 255);
+	color: rgba(0, 71, 215, 0.72);
+	padding: 9.4%;
+	font-size: 27px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px 8px 1px 1px;
+	
+}
+
+.dropbtn4:hover, .dropbtn4:focus {
+	background-color: #dadada;
+}
+
+.konsolenbutton {
+	position:absolute;
+	display: inline-block;
+	margin-left: 62.17%;
+	margin-top: 7.29%;
+}
+
+.konsolenbutton-content4 {
+	display: none;
+	position: absolute;
+	background-color: rgba(249, 16, 249, 0);
+	min-width: 139px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size: 19px;
+}
+
+.konsolenbutton-content4 a {
+	color: black;
+	padding: 8px 14px;
+	text-decoration: none;
+	display: block;
+}
+
+.konsolenbutton-content4 a:hover {background-color: #f1f1f1}
+
+.show4 {display:block;}
+
+/*Login Button-----------------------------------------------------------------------*/
+
+
+
+.login {
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0.7%;
+    margin-left: 92%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Logout Button-----------------------------------------------------------------------*/
+
+.logout{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0.7%;
+    margin-left: 92%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Homebutton-------------------------------------------------------------------------*/
+.homebutton{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 88.5%;
+    margin-left: 25%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+	
+}
+.uebergbaybutton{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 88.5%;
+    margin-left: 34%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;	
+}
+
+.versandbutton{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 88.5%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;	
+}
+/*Suchleiste-------------------------------------------------------------------*/
+
+
+#Suchen {
+	position: absolute;
+	height: 1%;
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 35.99%;
+	border: 2px solid rgb(204, 204, 204);
+	background-position: 10px 10px;
+	padding: 12px 20px 12px 67px;
+	background-image: "images/searchicon.png";
+
+}
+
+
+#suchen {
+	background-color:rgba(0, 71, 215, 0.86);
+	border: 2px solid rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	position: absolute;
+	border: 2px solid rgb(204, 204, 204);
+	height: 3.8%;
+	margin-top: 1.0%;
+	margin-left: 35.99%;
+	border-radius: px;
+
+}
+
+
+
+/*Impressum-----------------------------------------------------------------------*/
+
+
+.imprs {
+	background-color: rgba(255, 255, 255, 0);
+	color: black;
+	/*padding: 8.33%;*/
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+/*.imprs:hover, .imprs:focus {
+	background-color: #dadada;
+}*/
+
+.impressum {
+	position: absolute;
+	display: inline-block;
+	margin-left: 70.8%;
+	margin-top: 90.49%;
+
+}
+
+/*Kontakt-----------------------------------------------------------------------*/
+
+.kont {
+	background-color: rgba(255, 255, 255, 0);
+	color: black;
+	/*padding: 8.33%;*/
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+/*.kont:hover, .kont:focus {
+	background-color: #dadada;
+}*/
+
+.kontakt {
+	position: absolute;
+	display: inline-block;
+	margin-left: 67%;
+	margin-top: 90.49%;
+
+}
+
+#banner_footer{
+	margin-top: 50%;
+	margin-left: 0%;
+	position: auto;
+	height: 40%;
+	width: 99%;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+/*Login Fenster---------------------------------------------------------------------*/
+
+/*Einloggen Button*/
+#submit{
+	position: absolute;
+	margin-top: 17.8%;
+	margin-left: 41.4%;
+	width: 10%;
+	height: 3%;
+}
+
+/*Email Zeile*/
+#username{
+	position:absolute;
+	margin-top: 13.01%;
+	margin-left: 40.9%;
+	width: 11%;
+}
+/*Passwort*/
+#password{
+	position:absolute;
+	margin-top: 15.29%;
+	margin-left: 40.9%;
+	width: 11%;	
+}
+/*Email Schrift*/
+h2{
+	position: absolute;
+	margin-top: 14.2%;
+	margin-left: 40.88%;
+	font-size: 18px;
+}
+/*Login Schrift*/
+h1{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 44.5%;
+}
+/*Grauer Kasten*/
+#grauerKasten{
+	margin-top: 9.7%;
+	margin-left: 26.33%;
+	position: absolute;
+	height: 289px;
+	background-color: rgba(0, 0, 0, 0.21);
+	width: 600px;
+}
+/*Senkrechte Schwarze Linien*/
+#blackRow4{
+	margin-top: 9.7%;
+	margin-left: 35%;
+	position: absolute;
+	height: 289px;
+	background-color: rgb(0, 0, 0);	
+}
+
+h5{
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 46%;
+	font-size: 15px;
+}
+/*Passwort Schrift*/
+h6{
+	position: absolute;
+	margin-top: 16.5%;
+	margin-left: 40.9%;
+	font-size: 18px;
+}
+/*Braucht du einen Account Schrift*/
+h4{
+	position: absolute;
+	margin-top: 19.8%;
+	margin-left: 43.3%;
+	font-size: 10px;
+}
+/*Passwort Vergessen Button*/
+.pwVerg {
+	background-color: rgba(255, 255, 255, 0);
+	color: black;
+	/*padding: 8.33%;*/
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.pwVerg:hover, .pwVerg:focus {
+	background-color: #dadada;
+}
+
+.passwortVergessen {
+	position: absolute;
+	display: inline-block;
+	margin-left: 46.4%;
+	margin-top: 15.37%;
+
+}
+
+/*Registrieren button*/
+.reg {
+	background-color: rgba(255, 255, 255, 0);
+	color: black;
+	font-size: 13px;
+	border: none;
+	cursor: pointer;
+}
+
+.reg:hover, .reg:focus {
+	background-color: #dadada;
+}
+
+.registrieren {
+	position: absolute;
+	display: inline-block;
+	margin-left: 44.1%;
+	margin-top: 20.67%;
+
+}
+.register{
+	position: absolute;
+	margin-top: 21%;
+	margin-left: 44%;
+	
+}
+
+/*Gallerie Sale of the day------------------------------------------*/
+
+#saleoftheday{
+	position:absolute;
+	margin-top:15%;
+	margin-left:32%;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	width: 35%;
+	height: 45%;
+}
+
+
+
+/*Logged in Fenster---------------------------------------------------------------------*/
+
+p1{
+	position: absolute;
+	margin-top: 1.2%;
+	margin-left: 40.88%;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Laptop Verkauf-------------------------------------------------------------------*/
+
+/*LG UltraSlim Notebook--------------------------*/ 
+img{
+	position: absolute;
+	margin-top: 15.2%;
+	margin-left: 6.88%;
+	border: 2px solid #000000;
+}
+
+h7{
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+
+#table1 {
+	position:absolute;
+	margin-top: 18%;
+	margin-left: 25%;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+h8{
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+#ultslimnotebook{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 24.6%;
+    margin-left: 49.5%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Kiebell Laptop----------------------*/
+#kiebellaptop{
+	position: absolute;
+	margin-top: 33.2%;
+	margin-left: 6.88%;
+	border: 2px solid #000000;
+}
+
+h10{
+	position: absolute;
+	margin-top: 32%;
+	margin-left: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+
+#table2 {
+	position:absolute;
+	margin-top: 35%;
+	margin-left: 25%;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+h11{
+	position: absolute;
+	margin-top:42%;
+	margin-left: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+#kiebelwarenkorb{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 41.6%;
+    margin-left: 49.5%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}

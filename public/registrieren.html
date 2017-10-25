@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Registrierung
+        </title>
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+		
+    </head>
+    <body>
+	
+	<header>
+	<!--Überschrift--->
+	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
+	
+	<div id="box2" class="GBAY">GBAY</div>
+	<img src="images/GBAY_Logo.png" id="logo_header"; width="200" height="200">
+	<a href="/" class="homebutton_logo" method = "post"></a>
+	
+	<!--Warenkorb Logo--->
+	<img src="images/warenkorb.png" id="warenkorb_logo"; width="200" height="200">
+	<a href="/" class="warenkorb_logo" method = "post">Warenkorb</a>
+	
+	
+	
+	<!--Login Buuton-->
+	<a href="/login.html" class="login"> Login</a>
+	<!--Suchleiste-->
+	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
+	<button type="Suchen" id="suchen">Suchen</button>
+	
+	<div class="wrapper">
+		
+		<div class="pcbutton">
+		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
+		  <div id="myDropdown1" class="pcbutton-content1">
+			<a href="verkauf_notebook.html">Notebook</a>
+			<a href="#Tastatur">PC</a>
+			<a href="#Monitor">Monitor</a>
+			<a href="#Etc">etc</a>
+		  </div>
+		</div>
+		
+		<div class="monitorbutton">
+		<button id="myBtn2" class="dropbtn2">Monitor</button>
+		  <div id="myDropdown2" class="monitorbutton-content2">
+			<a href="#4k">4k</a>
+			<a href="#FullHd">Full-HD</a>
+			<a href="#Etc">etc</a>
+		  </div>
+		</div>
+		
+		<div class="zubehoerbutton">
+		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
+		  <div id="myDropdown3" class="zubehoerbutton-content3">
+			<a href="#shit">Shit</a>
+			<a href="#lit">Lit</a>
+			<a href="#Etc">etc</a>
+		  </div>
+		</div>
+		
+		<div class="konsolenbutton">
+		<button id="myBtn4" class="dropbtn4">Konsolen</button>
+		  <div id="myDropdown4" class="konsolenbutton-content4">
+			<a href="#ps4">PS4</a>
+			<a href="#XBOX">XBOX One</a>
+			<a href="#Nintendo">Nintendo Switch</a>
+			<a href="#Etc">etc</a>
+		  </div>
+		</div>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn1").onclick = function() {myFunction1()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction1() {
+			document.getElementById("myDropdown1").classList.toggle("show1");
+		}
+	</script>
+	
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn2").onclick = function() {myFunction2()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction2() {
+			document.getElementById("myDropdown2").classList.toggle("show2");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn3").onclick = function() {myFunction3()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction3() {
+			document.getElementById("myDropdown3").classList.toggle("show3");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn4").onclick = function() {myFunction4()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction4() {
+			document.getElementById("myDropdown4").classList.toggle("show4");
+		}
+	</script>
+	
+	<div class="clearfix"></div>
+		
+	</header>	
+		
+	<footer>
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="200">
+	<!---schwarze Linien----->	
+	<div id="blackRow">&nbsp;</div>
+	<div id="blackRow2">&nbsp;</div>
+	<div id="dashedborder">&nbsp;</div>
+	
+	
+	<div id="downline">&nbsp;</div>
+	<div id="downline2">&nbsp;</div>
+	<!---Impressum button--->
+	<form action = "/impressum" method = "post">
+		<div class="impressum">
+			<button id="myImprs" class="imprs">Impressum</button>
+		</div>
+	</form>	
+	<!---Kontakt button--->
+	<form action = "/kontakt" method = "post">
+		<div class="kontakt">
+			<button id="mykont" class="kont">Kontakt</button>
+		</div>
+	</form>	
+	
+	<!--Homebutton-->
+	<a href="/" class="homebutton" method = "post">Homepage</a>
+	<!--Versandbutton-->
+	<a href="/versand.html" class="versandbutton" method = "post">Versand</a>
+	<!--Über GBAY-->
+	<a href="/uebergbay.html" class="uebergbaybutton" method = "post">Ueber GBAY</a>
+	
+	<!--Registrierungsbutton-->
+	<p class="GBAY-Reg">Immer noch kein GBAY-Konto?</p>
+	<h9>Immer noch kein GBAY-Konto?</h9>
+	<a href="/registrieren.html" class="reg_button">Kostenlos Anmelden</a>
+	
+			
+	</footer>
+	
+	
+	
+        <h1>Registration </h1>
+        <form action="/registrieren" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Username:
+                    </td>
+                    <td>
+                        <input type="text" name="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password: 
+                    </td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Repeat Password:
+                    </td>
+                    <td>
+                        <input type="password" name="repPassword">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
