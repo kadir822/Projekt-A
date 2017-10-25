@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Homepage</title>
-		
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Notebook</title>
 		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
-			
-    </head>
-    <body>
+	</head>
 	
+	<body>
 	<header>
 	<!--Überschrift--->
 	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
@@ -24,6 +25,7 @@
 	
 	<!--Logout Buuton-->
 	<a href="/logout" class="logout">Logout</a>
+	
 	<!--Suchleiste-->
 	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
 	<button type="Suchen" id="suchen">Suchen</button>
@@ -34,34 +36,37 @@
 		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
 		  <div id="myDropdown1" class="pcbutton-content1">
 			<a href="verkauf_notebook.html">Notebook</a>
-			<a href="verkauf_pc.html">PC</a>
-
+			<a href="#Tastatur">PC</a>
+			<a href="#Monitor">Monitor</a>
+			<a href="#Etc">etc</a>
 		  </div>
 		</div>
 		
 		<div class="monitorbutton">
 		<button id="myBtn2" class="dropbtn2">Monitor</button>
 		  <div id="myDropdown2" class="monitorbutton-content2">
-			<a href="verkauf_4k.html">4k</a>
-			<a href="verkauf_fullhd.html">Full-HD</a>
+			<a href="#4k">4k</a>
+			<a href="#FullHd">Full-HD</a>
+			<a href="#Etc">etc</a>
 		  </div>
 		</div>
 		
 		<div class="zubehoerbutton">
 		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
 		  <div id="myDropdown3" class="zubehoerbutton-content3">
-			<a href="verkauf_maus.html">Maus</a>
-			<a href="verkauf_tastatur.html">Tastatur</a>
-			<a href="verkauf_kabel.html">Kabel</a>
+			<a href="#shit">Shit</a>
+			<a href="#lit">Lit</a>
+			<a href="#Etc">etc</a>
 		  </div>
 		</div>
 		
 		<div class="konsolenbutton">
 		<button id="myBtn4" class="dropbtn4">Konsolen</button>
 		  <div id="myDropdown4" class="konsolenbutton-content4">
-			<a href="verkauf_ps.html">PlayStation</a>
-			<a href="verkauf_xbox.html">XBOX</a>
-			<a href="verkauf_nintendo.html">Nintendo</a>
+			<a href="#ps4">PS4</a>
+			<a href="#XBOX">XBOX One</a>
+			<a href="#Nintendo">Nintendo Switch</a>
+			<a href="#Etc">etc</a>
 		  </div>
 		</div>
 
@@ -146,20 +151,81 @@
 	
 			
 	</footer>
-		
+	
+	
 	
 	<!-----Gallerie---------------------------------------------->
 	
-	<a  href="saleoftheday.html">
-		<img src="images/saleoftheday.png" id="saleoftheday" width="600" height="400">
-	</a>
+	<!--Erstes Produkt------->
+	<img src="images/LG 14Z960 UltraSlim Notebook.jpg" id="ultslimpic" width="200" height="200">
 	
-	<br>
+	<h7>
+		 <%= products[2].name %>
+	</h7>
+	
+	
+	<table id="table1">
+		<tr>
+			<th>Marke</th>
+			<td>MSI</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>DS B1</td>			
+		</tr>
+		<tr>
+			<th>Artikelgewicht</th>
+			<td>181 g</td>			
+		</tr>
+		<tr>
+			<th>Produktabmessungen</th>
+			<td>20,5 x 15,5 x 8,5 cm</td>			
+		</tr>		
+	</table>
+	
+	<h8>Preis: <%= products[2].price %></h8>
+
+	<a href="" class="warenkorb" id="ultslimnotebook"> In den Warenkorb</a>
+	
+	<!--zweites Produkt------->
+	<img src="images/Kiebel Gaming Laptop Ultra 7.0 [181167].jpg" id="kiebellaptop" width="200" height="200">
+	
+	<h10>
+		 <%= products[3].name %>
+	</h10>
+	
+	
+	<table id="table2">
+		<tr>
+			<th>Marke</th>
+			<td>Kiebel</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>181167</td>			
+		</tr>
+		<tr>
+			<th>Artikelgewicht</th>
+			<td>3,9 Kg</td>			
+		</tr>
+		<tr>
+			<th>Grafikkarte</th>
+			<td>nVidia Geforce GTX 1070 8GB GDDR5</td>			
+		</tr>		
+	</table>
+	
+	<h11>Preis: <%= products[3].price %></h11>
+
+	<a href="" class="warenkorb" id="kiebelwarenkorb"> In den Warenkorb</a>
+	
+	
+		<br>
 	<br>
 	<br>
 	<br><br>
 	
-	<p1>Willkommen, <%= username %></p1>   	
+	<p1>Willkommen, <%= username %></p1>   
+	
 	
 	
 	</body>

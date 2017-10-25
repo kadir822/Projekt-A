@@ -69,6 +69,15 @@ app.post('/kontakt', function(request, response) {
 	
 });
 
+//Verkauf Notebook
+app.get('/logged', (request, response) =>{
+	if (request.session.authenticated){
+		rresponse.render('verkauf_notebook_logged', {'username': request.session.username});
+	}else{
+		response.sendFile(__dirname + '/verkauf_notebook.html');
+	}
+});
+
 
 //Homebutton
 app.get('/home', (request, response) => {
