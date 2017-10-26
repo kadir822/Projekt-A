@@ -20,38 +20,39 @@
 	height: 50%;
 	width: 25%;
 	border: 1px solid rgba(255, 255, 255, 0);
-
+	z-index: 2;
 }
 .homebutton_logo {
 	position: absolute;
     background-color: rgba(216, 15, 15, 0);
     border: none;
     color: white;;
-    margin-top: 0.7%;
-    margin-left: 0.5%;
+    margin-top: -20.7%;
+    margin-left: -15.5%;
 	width: 8%;
 	height: 15%;
 
 }
 #warenkorb_logo{
-	margin-top: 0.99%;
-	margin-left: 82.3%;
+	position: absolute;
+	margin-top: 0.8%;
+	margin-left: 64.3%;
 	height: 3%;
 	width: 1.5%;
 	border: 1px solid rgba(255, 255, 255, 0);	
 }
 .warenkorb_logo{
 	position: absolute;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
-    color: white;
-    padding: 10px 40px;
+    color: #ffffff;
+    padding: 10px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 0.7%;
-    margin-left: 82%;
+    margin-top: 0.5%;
+    margin-left: 64%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;	
@@ -93,10 +94,10 @@
 #banner_header{
 	margin-top: -0.22%;
 	margin-left: 0%;
-	position: auto;
-	height: 20%;
+	position: absolute;
 	width: 99%;
 	border: 1px solid rgb(255, 255, 255);
+	z-index: -2;
 }
 
 /* h9{
@@ -108,7 +109,7 @@
 	font-weight: 1;
 } */
 
-p,GBAY-Reg{
+p.GBAY-Reg{
 	position: absolute;
 	margin-top: 72%;
 	margin-left: 38%;
@@ -118,7 +119,7 @@ p,GBAY-Reg{
 
 .reg_button{
 	position: absolute;
-    background-color: rgba(0, 71, 215, 0.72);
+    background-color: rgb(2, 80, 242);
     border: none;
     color: white;
     padding: 13px 50px;
@@ -166,7 +167,7 @@ p,GBAY-Reg{
 	position: absolute;
 	display: inline-block;
 	margin-left: 0%;
-	margin-top: 7.29%;
+	margin-top: -8.9%;
 }
 
 
@@ -214,7 +215,7 @@ p,GBAY-Reg{
 	position:absolute;
 	display: inline-block;
 	margin-left: 21%;
-	margin-top: 7.29%;
+	margin-top: -8.9%
 }
 
 .monitorbutton-content2 {
@@ -259,7 +260,7 @@ p,GBAY-Reg{
 	position:absolute;
 	display: inline-block;
 	margin-left: 40%;
-	margin-top: 7.29%;
+	margin-top: -8.9%
 }
 
 .zubehoerbutton-content3 {
@@ -305,7 +306,7 @@ p,GBAY-Reg{
 	position:absolute;
 	display: inline-block;
 	margin-left: 62.17%;
-	margin-top: 7.29%;
+	margin-top: -8.9%
 }
 
 .konsolenbutton-content4 {
@@ -343,8 +344,8 @@ p,GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 0.7%;
-    margin-left: 92%;
+    margin-top: 0.5%;
+    margin-left: 74.5%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -361,8 +362,8 @@ p,GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 0.7%;
-    margin-left: 92%;
+    margin-top: 0.5%;
+    margin-left: 74.5%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -419,8 +420,8 @@ p,GBAY-Reg{
 	position: absolute;
 	height: 1%;
 	width: 20%;
-	margin-top: 1%;
-	margin-left: 35.99%;
+	margin-top: 0.7%;
+	margin-left: 18%;
 	border: 2px solid rgb(204, 204, 204);
 	background-position: 10px 10px;
 	padding: 12px 20px 12px 67px;
@@ -437,8 +438,8 @@ p,GBAY-Reg{
 	position: absolute;
 	border: 2px solid rgb(204, 204, 204);
 	height: 3.8%;
-	margin-top: 1.0%;
-	margin-left: 35.99%;
+	margin-top: 0.7%;
+	margin-left: 18%;
 	border-radius: px;
 
 }
@@ -492,14 +493,8 @@ p,GBAY-Reg{
 
 }
 
-#banner_footer{
-	margin-top: 50%;
-	margin-left: 0%;
-	position: auto;
-	height: 40%;
-	width: 99%;
-	border: 1px solid rgb(255, 255, 255);
-}
+/*Banner footer -----------------------------------*/
+
 
 
 
@@ -654,28 +649,45 @@ p1{
 /*Laptop Verkauf-------------------------------------------------------------------*/
 
 /*LG UltraSlim Notebook--------------------------*/ 
-img{
-	position: absolute;
-	margin-top: 15.2%;
-	margin-left: 6.88%;
-	border: 2px solid #000000;
+
+#trennlinie1{
+	position:absolute;
+	background-color: rgba(164, 159, 159, 0.05);
+	margin-top: -78%;
+	margin-left: 14.6%;
+	width: 68.8%;
+	height: 33%;
+	border-style: inset;
 }
+#ultslimpic{
+	position: absolute;
+	margin-top: -76%;
+	margin-left: 13.6%;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+
+}
+/*?img{
+	position: absolute;
+	margin-top: 16.2%;
+	margin-left: 13.88%;
+}*/
 
 h7{
 	position: absolute;
-	margin-top: 15%;
-	margin-left: 25%;
+	margin-top: -77.3%;
+	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 19px;
 }
 
 
 #table1 {
 	position:absolute;
-	margin-top: 18%;
-	margin-left: 25%;
+	margin-top: -73.4%;
+	margin-left: 32.6%;
     border-collapse: collapse;
-    width: 30%;
+    width: 35%;
 }
 
 th, td {
@@ -688,51 +700,85 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h8{
 	position: absolute;
-	margin-top: 25%;
-	margin-left: 25%;
+	margin-top: -77.4%;
+	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 28px;
+	color: rgb(0, 0, 0);
 }
 
 #ultslimnotebook{
 	position: absolute;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.4);
     border: none;
-    color: black;
-    padding: 10px 32px;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 24.6%;
-    margin-left: 49.5%;
+    margin-top: -65.6%;
+    margin-left: 73.3%;
     cursor: pointer;
-    border: 2px solid #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0.49);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+#trennlinie2{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -77.5%;
+	margin-left: 29%;
+	width: 1px;
+	height: 32%;;
+}
+
+#trennlinie3{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -77.5%;
+	margin-left: 72%;
+	width: 1px;
+	height: 32%;;
+}
+
+
 /*Kiebell Laptop----------------------*/
+#trennlinie4{
+	position:absolute;
+	background-color: rgba(164, 159, 159, 0.05);
+	margin-top: -55%;
+	margin-left: 14.6%;
+	width: 68.8%;
+	height: 33%;
+	border-style: inset;
+}
+
 #kiebellaptop{
 	position: absolute;
-	margin-top: 33.2%;
-	margin-left: 6.88%;
-	border: 2px solid #000000;
+	margin-top: -53.2%;
+	margin-left: 14.2%;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+	
 }
 
 h10{
 	position: absolute;
-	margin-top: 32%;
-	margin-left: 25%;
+	margin-top: -54.2%;
+	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 19px;
 }
 
 
 #table2 {
 	position:absolute;
-	margin-top: 35%;
-	margin-left: 25%;
+	margin-top: -50.4%;
+	margin-left: 32.6%;
     border-collapse: collapse;
-    width: 30%;
+    width: 35%;
 }
 
 th, td {
@@ -745,8 +791,8 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h11{
 	position: absolute;
-	margin-top:42%;
-	margin-left: 25%;
+	margin-top: -54%;
+	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 }
@@ -756,14 +802,226 @@ h11{
     background-color: rgba(255, 255, 255, 0);
     border: none;
     color: black;
-    padding: 10px 32px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: 41.6%;
-    margin-left: 49.5%;
+    margin-top: -43.6%;
+    margin-left: 73.3%;
     cursor: pointer;
-    border: 2px solid #ffffff;
+    border: 2px solid #828282;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#trennlinie5{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -54.5%;
+	margin-left: 29%;
+	width: 1px;
+	height: 32%;;
+}
+
+#trennlinie6{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -54.5%;
+	margin-left: 72%;
+	width: 1px;
+	height: 32%;;
+}
+
+/*PC Verkauf-------------------------------------------------------------------*/
+
+/*Erster Artikel-------------------------------------------*/
+
+
+
+#trennlinie7{
+	position:absolute;
+	background-color: rgba(164, 159, 159, 0.05);
+	margin-top: -78%;
+	margin-left: 14.6%;
+	width: 68.8%;
+	height: 33%;
+	border-style: inset;
+}
+
+#cslpcpic{
+	position: absolute;
+	margin-top: -76%;
+	margin-left: 15.5%;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+
+}
+
+h12{
+	position: absolute;
+	margin-top: -77.3%;
+	margin-left: 29.9%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+}
+
+
+#table3 {
+	position:absolute;
+	margin-top: -73.4%;
+	margin-left: 32.6%;
+    border-collapse: collapse;
+    width: 35%;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+h13{
+	position: absolute;
+	margin-top: -77.4%;
+	margin-left: 73.3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	color: rgb(0, 0, 0);
+}
+
+#cslpcwarenkorb{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: -65.6%;
+    margin-left: 73.3%;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.49);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*Zweiter Artikel-------------------------------------------*/
+
+
+#trennlinie4{
+	position:absolute;
+	background-color: rgba(164, 159, 159, 0.05);
+	margin-top: -55%;
+	margin-left: 14.6%;
+	width: 68.8%;
+	height: 33%;
+	border-style: inset;
+}
+
+#ankermannpc{
+	position: absolute;
+	margin-top: -53.2%;
+	margin-left: 15.2%;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+
+h14{
+	position: absolute;
+	margin-top: -54.2%;
+	margin-left: 29.9%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+}
+
+
+#table4 {
+	position:absolute;
+	margin-top: -50.4%;
+	margin-left: 32.6%;
+    border-collapse: collapse;
+    width: 35%;
+}
+
+th, td {
+    text-align: left;
+    padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+h15{
+	position: absolute;
+	margin-top: -54%;
+	margin-left: 73.3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+#ankermannpcwarenkorb{
+	position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: -43.6%;
+    margin-left: 73.3%;
+    cursor: pointer;
+    border: 2px solid #828282;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#trennlinie5{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -54.5%;
+	margin-left: 29%;
+	width: 1px;
+	height: 32%;;
+}
+
+#trennlinie6{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: -54.5%;
+	margin-left: 72%;
+	width: 1px;
+	height: 32%;;
+}
+
+
+/*Dritter Artikel-------------------------------------------*/
+#trennlinie8{
+	position:absolute;
+	background-color: rgba(164, 159, 159, 0.05);
+	margin-top: -30%;
+	margin-left: 14.6%;
+	width: 68.8%;
+	height: 33%;
+	border-style: inset;
+}
+
+
+
+
+
+#banner_footer{
+	position: auto;
+	margin-top: 50%;
+	margin-left: 0%;
+	height: 40%;
+	width: 99%;
+	border: 1px solid rgb(255, 255, 255);
 }
