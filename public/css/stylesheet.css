@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 /*  */
+h16{
+	position: absolute;
+	margin-top: -113%;
+	margin-left: 40.3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
 
 .GBAY{
 	background: rgba(0, 0, 0, 0);
@@ -26,9 +33,9 @@
 	position: absolute;
     background-color: rgba(216, 15, 15, 0);
     border: none;
-    color: white;;
-    margin-top: -20.7%;
-    margin-left: -15.5%;
+    color: rgba(154, 30, 30, 0);;
+    margin-top: 0.39%;
+    margin-left: -17.4%;
 	width: 8%;
 	height: 15%;
 
@@ -62,7 +69,7 @@
 
 
 #downline{
-	margin-top: 68.65%;
+	margin-top: -2.2%;
 	margin-left: 0%;
 	position: absolute;
 	height: 250px;
@@ -71,17 +78,17 @@
 }
 
 #downline2{
-	margin-top: 81.79%;
+	margin-top: 11.79%;
 	margin-left: 0%;
 	position: absolute;
-	height: 270px;
-	width: 99%;
+	height: 220px;
+	width: 9%;
 	background-color: rgba(32, 32, 118, 0);
 }
 
 #dashedborder{
 	position: absolute;
-	margin-top: 90%;
+	margin-top: 19%;
 	margin-left: 25%;
 	height: 0%;
 	width: 50%;
@@ -111,7 +118,7 @@
 
 p.GBAY-Reg{
 	position: absolute;
-	margin-top: 72%;
+	margin-top: 1%;
 	margin-left: 38%;
 	font-size: 30px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -127,8 +134,8 @@ p.GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin-top: 75.7%;
-    margin-left: 30.5%;
+    margin-top: 4.7%;
+    margin-left: 40.5%;
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0);
     font-family: Arial, Helvetica, sans-serif;	
@@ -378,7 +385,7 @@ p.GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin-top: 88.5%;
+    margin-top: 17.5%;
     margin-left: 25%;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
@@ -393,7 +400,7 @@ p.GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin-top: 88.5%;
+    margin-top: 17.5%;
     margin-left: 34%;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;	
@@ -408,7 +415,7 @@ p.GBAY-Reg{
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin-top: 88.5%;
+    margin-top: 17.5%;
     margin-left: 30%;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;	
@@ -466,7 +473,7 @@ p.GBAY-Reg{
 	position: absolute;
 	display: inline-block;
 	margin-left: 70.8%;
-	margin-top: 90.49%;
+	margin-top: 19.49%;
 
 }
 
@@ -489,7 +496,7 @@ p.GBAY-Reg{
 	position: absolute;
 	display: inline-block;
 	margin-left: 67%;
-	margin-top: 90.49%;
+	margin-top: 19.49%;
 
 }
 
@@ -503,7 +510,7 @@ p.GBAY-Reg{
 /*Einloggen Button*/
 #submit{
 	position: absolute;
-	margin-top: 17.8%;
+	margin-top: -67.8%;
 	margin-left: 41.4%;
 	width: 10%;
 	height: 3%;
@@ -512,33 +519,33 @@ p.GBAY-Reg{
 /*Email Zeile*/
 #username{
 	position:absolute;
-	margin-top: 13.01%;
+	margin-top: -73.01%;
 	margin-left: 40.9%;
 	width: 11%;
 }
 /*Passwort*/
 #password{
 	position:absolute;
-	margin-top: 15.29%;
+	margin-top: -71.29%;
 	margin-left: 40.9%;
 	width: 11%;	
 }
 /*Email Schrift*/
 h2{
 	position: absolute;
-	margin-top: 14.2%;
+	margin-top: -74.2%;
 	margin-left: 40.88%;
 	font-size: 18px;
 }
 /*Login Schrift*/
 h1{
 	position: absolute;
-	margin-top: 10%;
+	margin-top: -80%;
 	margin-left: 44.5%;
 }
 /*Grauer Kasten*/
 #grauerKasten{
-	margin-top: 9.7%;
+	margin-top: -77%;
 	margin-left: 26.33%;
 	position: absolute;
 	height: 289px;
@@ -547,7 +554,7 @@ h1{
 }
 /*Senkrechte Schwarze Linien*/
 #blackRow4{
-	margin-top: 9.7%;
+	margin-top: -76.7%;
 	margin-left: 35%;
 	position: absolute;
 	height: 289px;
@@ -563,14 +570,14 @@ h5{
 /*Passwort Schrift*/
 h6{
 	position: absolute;
-	margin-top: 16.5%;
+	margin-top: -72.5%;
 	margin-left: 40.9%;
 	font-size: 18px;
 }
 /*Braucht du einen Account Schrift*/
 h4{
 	position: absolute;
-	margin-top: 19.8%;
+	margin-top: -65.8%;
 	margin-left: 43.3%;
 	font-size: 10px;
 }
@@ -592,33 +599,33 @@ h4{
 	position: absolute;
 	display: inline-block;
 	margin-left: 46.4%;
-	margin-top: 15.37%;
+	margin-top: -71.37%;
 
 }
 
 /*Registrieren button*/
 .reg {
-	background-color: rgba(255, 255, 255, 0);
-	color: black;
+	background-color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 	font-size: 13px;
 	border: none;
 	cursor: pointer;
 }
 
 .reg:hover, .reg:focus {
-	background-color: #dadada;
+	background-color: #b4b4b4;
 }
 
 .registrieren {
 	position: absolute;
 	display: inline-block;
 	margin-left: 44.1%;
-	margin-top: 20.67%;
+	margin-top: -70.67%;
 
 }
 .register{
 	position: absolute;
-	margin-top: 21%;
+	margin-top: -65%;
 	margin-left: 44%;
 	
 }
@@ -627,7 +634,7 @@ h4{
 
 #saleoftheday{
 	position:absolute;
-	margin-top:15%;
+	margin-top:-80%;
 	margin-left:32%;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	width: 35%;
@@ -648,7 +655,72 @@ p1{
 
 /*Laptop Verkauf-------------------------------------------------------------------*/
 
+
 /*LG UltraSlim Notebook--------------------------*/ 
+/* Popup container - can be anything you want */
+.popupLGnote {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: -84.5%;
+    margin-left: 73.29%;
+    z-index: 1;
+    border: 2px solid rgba(0, 0, 0, 0.49);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+/* The actual popup */
+.popupLGnote .warenkorb {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -135px;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popupLGnote .warenkorb::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popupLGnote .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
 
 #trennlinie1{
 	position:absolute;
@@ -658,10 +730,11 @@ p1{
 	width: 68.8%;
 	height: 33%;
 	border-style: inset;
+	z-index: 0;
 }
 #ultslimpic{
 	position: absolute;
-	margin-top: -76%;
+	margin-top: -96%;
 	margin-left: 13.6%;
 	border: 2px solid rgba(255, 255, 255, 0);
 	background-color: rgba(255, 255, 255, 0);
@@ -675,7 +748,7 @@ p1{
 
 h7{
 	position: absolute;
-	margin-top: -77.3%;
+	margin-top: -97.3%;
 	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 19px;
@@ -684,7 +757,7 @@ h7{
 
 #table1 {
 	position:absolute;
-	margin-top: -73.4%;
+	margin-top: -93.4%;
 	margin-left: 32.6%;
     border-collapse: collapse;
     width: 35%;
@@ -700,7 +773,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h8{
 	position: absolute;
-	margin-top: -77.4%;
+	margin-top: -96.4%;
 	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 28px;
@@ -717,7 +790,7 @@ h8{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: -65.6%;
+    margin-top: -84.6%;
     margin-left: 73.3%;
     cursor: pointer;
     border: 2px solid rgba(0, 0, 0, 0.49);
@@ -745,6 +818,72 @@ h8{
 
 
 /*Kiebell Laptop----------------------*/
+
+/* Popup container - can be anything you want */
+.popupkiebelnote {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: -64.5%;
+    margin-left: 73.29%;
+    z-index: 1;
+    border: 2px solid rgba(0, 0, 0, 0.49);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+/* The actual popup */
+.popupkiebelnote .warenkorb {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -135px;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popupkiebelnote .warenkorb::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popupkiebelnote .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
 #trennlinie4{
 	position:absolute;
 	background-color: rgba(164, 159, 159, 0.05);
@@ -753,20 +892,21 @@ h8{
 	width: 68.8%;
 	height: 33%;
 	border-style: inset;
+	
 }
 
 #kiebellaptop{
 	position: absolute;
-	margin-top: -53.2%;
-	margin-left: 14.2%;
+	margin-top: -75.2%;
+	margin-left: 14.8%;
 	border: 2px solid rgba(255, 255, 255, 0);
 	background-color: rgba(255, 255, 255, 0);
-	
+	width: 14%;
 }
 
 h10{
 	position: absolute;
-	margin-top: -54.2%;
+	margin-top: -77.2%;
 	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 19px;
@@ -775,7 +915,7 @@ h10{
 
 #table2 {
 	position:absolute;
-	margin-top: -50.4%;
+	margin-top: -73.4%;
 	margin-left: 32.6%;
     border-collapse: collapse;
     width: 35%;
@@ -791,7 +931,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h11{
 	position: absolute;
-	margin-top: -54%;
+	margin-top: -76%;
 	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
@@ -807,7 +947,7 @@ h11{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: -43.6%;
+    margin-top: -64.6%;
     margin-left: 73.3%;
     cursor: pointer;
     border: 2px solid #828282;
@@ -840,8 +980,8 @@ h11{
 
 #trennlinie7{
 	position:absolute;
-	background-color: rgba(164, 159, 159, 0.05);
-	margin-top: -78%;
+	background-color: rgba(164, 159, 159, 0);
+	margin-top: -8%;
 	margin-left: 14.6%;
 	width: 68.8%;
 	height: 33%;
@@ -850,16 +990,16 @@ h11{
 
 #cslpcpic{
 	position: absolute;
-	margin-top: -76%;
+	margin-top: -96%;
 	margin-left: 15.5%;
-	border: 2px solid rgba(255, 255, 255, 0);
+	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
 }
 
 h12{
 	position: absolute;
-	margin-top: -77.3%;
+	margin-top: -97.3%;
 	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 19px;
@@ -868,7 +1008,7 @@ h12{
 
 #table3 {
 	position:absolute;
-	margin-top: -73.4%;
+	margin-top: -93.4%;
 	margin-left: 32.6%;
     border-collapse: collapse;
     width: 35%;
@@ -884,7 +1024,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h13{
 	position: absolute;
-	margin-top: -77.4%;
+	margin-top: -97.4%;
 	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 28px;
@@ -901,7 +1041,7 @@ h13{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: -65.6%;
+    margin-top: -85.6%;
     margin-left: 73.3%;
     cursor: pointer;
     border: 2px solid rgba(0, 0, 0, 0.49);
@@ -917,7 +1057,7 @@ h13{
 #trennlinie4{
 	position:absolute;
 	background-color: rgba(164, 159, 159, 0.05);
-	margin-top: -55%;
+	margin-top: -98%;
 	margin-left: 14.6%;
 	width: 68.8%;
 	height: 33%;
@@ -926,7 +1066,7 @@ h13{
 
 #ankermannpc{
 	position: absolute;
-	margin-top: -53.2%;
+	margin-top: -76.2%;
 	margin-left: 15.2%;
 	border: 2px solid rgba(255, 255, 255, 0);
 	background-color: rgba(255, 255, 255, 0);
@@ -935,7 +1075,7 @@ h13{
 
 h14{
 	position: absolute;
-	margin-top: -54.2%;
+	margin-top: -77.2%;
 	margin-left: 29.9%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 19px;
@@ -944,7 +1084,7 @@ h14{
 
 #table4 {
 	position:absolute;
-	margin-top: -50.4%;
+	margin-top: -73.4%;
 	margin-left: 32.6%;
     border-collapse: collapse;
     width: 35%;
@@ -960,7 +1100,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 h15{
 	position: absolute;
-	margin-top: -54%;
+	margin-top: -77%;
 	margin-left: 73.3%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
@@ -976,7 +1116,7 @@ h15{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-top: -43.6%;
+    margin-top: -65.6%;
     margin-left: 73.3%;
     cursor: pointer;
     border: 2px solid #828282;
@@ -986,7 +1126,7 @@ h15{
 #trennlinie5{
 	position:absolute;
 	background-color: rgba(0, 0, 0, 0.25);
-	margin-top: -54.5%;
+	margin-top: -97.5%;
 	margin-left: 29%;
 	width: 1px;
 	height: 32%;;
@@ -995,7 +1135,7 @@ h15{
 #trennlinie6{
 	position:absolute;
 	background-color: rgba(0, 0, 0, 0.25);
-	margin-top: -54.5%;
+	margin-top: -97.5%;
 	margin-left: 72%;
 	width: 1px;
 	height: 32%;;
@@ -1006,7 +1146,7 @@ h15{
 #trennlinie8{
 	position:absolute;
 	background-color: rgba(164, 159, 159, 0.05);
-	margin-top: -30%;
+	margin-top: -58%;
 	margin-left: 14.6%;
 	width: 68.8%;
 	height: 33%;
@@ -1018,9 +1158,9 @@ h15{
 
 
 #banner_footer{
-	position: auto;
-	margin-top: 50%;
-	margin-left: 0%;
+	margin-top: 57%;
+	margin-left: 0.5%;
+	padding-top: 10%;
 	height: 40%;
 	width: 99%;
 	border: 1px solid rgb(255, 255, 255);

@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Homepage</title>
-		
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Notebook</title>
 		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
-			
-    </head>
-    <body>
+	</head>
 	
+	<body>
 	<header>
 	<!--Überschrift--->
 	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
@@ -22,8 +23,8 @@
 	
 	
 	
-	<!--Logout Buuton-->
-	<a href="/logout" class="logout">Logout</a>
+	<!--Login Buuton-->
+	<a href="/login.html" class="login"> Lo----gin</a>
 	<!--Suchleiste-->
 	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
 	<button type="Suchen" id="suchen">Suchen</button>
@@ -33,8 +34,8 @@
 		<div class="pcbutton">
 		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
 		  <div id="myDropdown1" class="pcbutton-content1">
-			<a href="verkauf_notebook">Notebook</a>
-			<a href="verkauf_pc">PC</a>
+			<a href="/verkauf_notebook_logged">Notebook</a>
+			<a href="verkauf_pc.html">PC</a>
 
 		  </div>
 		</div>
@@ -110,7 +111,7 @@
 	</header>	
 		
 	<footer>
-	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="200">
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="150">
 	<!---schwarze Linien----->	
 	<div id="blackRow">&nbsp;</div>
 	<div id="blackRow2">&nbsp;</div>
@@ -146,20 +147,138 @@
 	
 			
 	</footer>
-		
+
+	<!-------------------------MAIN----------------------------------->
+	
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction5() {
+		var popupLGnote = document.getElementById("ultslimnotebook");
+		popupLGnote.classList.toggle("show");
+	}
+	</script>
+	<script>
+	function myFunction6() {
+		var popupkiebelnote = document.getElementById("kiebelwarenkorb");
+		popupkiebelnote.classList.toggle("show");
+	}
+	</script>
+	
 	
 	<!-----Gallerie---------------------------------------------->
 	
-	<a  href="saleoftheday.html">
-		<img src="images/saleoftheday.png" id="saleoftheday" width="600" height="400">
-	</a>
+	<!--Erstes Produkt------->
 	
-	<br>
-	<br>
-	<br>
-	<br><br>
+	<img src="images/LG 14Z960 UltraSlim Notebook.jpg" id="ultslimpic" width="300" height="250">
 	
-		<h16>Willkommen, <%= username %></h16>  	
+	<h7>LG 14Z960 Ultraslim Notebook, 14 Zoll (35 cm) Full-HD, 
+		Intel Core i5-6200U, <br>4 GB RAM, 256 GB SSD, Windows 10,
+		Schwarz
+	</h7>
+
+	
+	<table id="table1">
+		<tr>
+			<th>Marke</th>
+			<td>MSI</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>DS B1</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>14 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i5 6200U (2.8 GHz) LGA 1356 (Socket B2) </td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>4096 MB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB</td>			
+		</tr>
+		<tr>
+			<th>Festplatten-Technologie</th>
+			<td>SSD</td>			
+		</tr>
+		</tr>
+		
+	</table>
+	
+	<h8>825,-</h8><!-- <%= products[2].price %> -->
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
+	
+	
+	<div class="popupLGnote" onclick="myFunction5()">In den Warenkorb
+		<span  class="warenkorb" id="ultslimnotebook"> Anmeldung erforderlich!</span>
+	</div>
+	<!--Kiebell Laptop------------------------>
+	<!--zweites Produkt------->
+	<img src="images/Kiebel Gaming Laptop Ultra 7.0 [181167].jpg" id="kiebellaptop" width="300" height="250">
+	
+	<h10>
+		Kiebel Gaming-Laptop Ultra 7.0 [181167] -
+		Intel Core i7-7700 4x 3.6GHz |<br> 43.9cm (17.3") FullHD LED-Display G-SYNC |
+		16GB DDR4 | 256GB M.2 + 1TB HDD |<br> NVIDIA Geforce GTX 1070 8GB | USB3.1 |
+		Sound Blaster X-Fi | 433Mbit WLAN + Bluetooth
+	</h10>
+	
+	
+	<table id="table2">
+		<tr>
+			<th>Marke</th>
+			<td>Kiebel</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>181167</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>17.3 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i7-7700 4x 3.6GHz</td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>16 GB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB, 1000 GB</td>			
+		</tr>
+		<tr>
+			<th>Beschreibung Grafikkarte</th>
+			<td>nVidia Geforce GTX 1070 8GB GDDR5</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h11>2.499.-</h11>
+	<div class="popupkiebelnote" onclick="myFunction6()">In den Warenkorb
+		<span class="warenkorb" id="kiebelwarenkorb">Anmeldung erforderlich!</span>
+	</div>
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+	
+	
 	
 	
 	</body>

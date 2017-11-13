@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>Homepage</title>
-		
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Notebook</title>
 		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
-			
-    </head>
-    <body>
+	</head>
 	
+	<body>
 	<header>
 	<!--Überschrift--->
 	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
@@ -23,7 +24,9 @@
 	
 	
 	<!--Logout Buuton-->
-	<a href="/logout" class="logout">Logout</a>
+
+			
+	<a href="/logout" class="logout">Log---out</a>
 	<!--Suchleiste-->
 	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
 	<button type="Suchen" id="suchen">Suchen</button>
@@ -110,7 +113,7 @@
 	</header>	
 		
 	<footer>
-	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="200">
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="150">
 	<!---schwarze Linien----->	
 	<div id="blackRow">&nbsp;</div>
 	<div id="blackRow2">&nbsp;</div>
@@ -146,21 +149,142 @@
 	
 			
 	</footer>
+	
+		<!-----Gallerie---------------------------------------------->
+	
+	<!--Erstes Produkt------->
+	
+	<img src="images/CSL Multimedia PC Sprint 5845Pro (Quad) inkl. WIN 7 Pro.jpg" id="cslpcpic" width="230" height="250">
+	
+	<h12>CSL Multimedia PC Sprint 5845Pro (Quad) inkl. Windows 7 Professional<br>
+	AMD A10-9700 4x 3500 MHz, 8 GB RAM, 1000 GB SATA, Radeon R7, DVD-RW,<br> Gigabit LAN, USB 3.1
+	</h12>
+	
+	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>MSI</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>DS B1</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>14 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i5 6200U (2.8 GHz) LGA 1356 (Socket B2) </td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>4096 MB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB</td>			
+		</tr>
+		<tr>
+			<th>Festplatten-Technologie</th>
+			<td>SSD</td>			
+		</tr>
+		</tr>
 		
+	</table>
 	
-	<!-----Gallerie---------------------------------------------->
+	<h13>419,-</h13>
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
 	
-	<a  href="saleoftheday.html">
-		<img src="images/saleoftheday.png" id="saleoftheday" width="600" height="400">
-	</a>
+	<a href="" class="warenkorb" id="cslpcwarenkorb"> In den Warenkorb</a>
 	
-	<br>
-	<br>
-	<br>
-	<br><br>
 	
-		<h16>Willkommen, <%= username %></h16>  	
+	<!--zweites Produkt------->
 	
+	<img src="images/Ankermann-PC Wildrabbit GAMER.jpg" id="ankermannpc" width="230" height="250">
+	
+	<h14>
+		Ankermann-PC WildRabbit GAMER, AMD 950 4x 3.50GHz, 
+		Zotac GeForce GTX 1060 6GB,<br> 8GB DDR4 2400, 1TB HDD, 
+		Microsoft Windows 10 Professional, EAN 4260409311688
+	</h14>
+	
+	
+	<table id="table4">
+		<tr>
+			<th>Marke</th>
+			<td>Kiebel</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>181167</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>17.3 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i7-7700 4x 3.6GHz</td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>16 GB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB, 1000 GB</td>			
+		</tr>
+		<tr>
+			<th>Beschreibung Grafikkarte</th>
+			<td>nVidia Geforce GTX 1070 8GB GDDR5</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h15>819.-</h15>
+
+	<a href="" class="warenkorb" id="ankermannpcwarenkorb"> In den Warenkorb</a>
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+
+	
+	<!--drittes Produkt------->
+	
+	<div id="trennlinie8">&nbsp;</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<h16>Willkommen, <%= username %></h16>  	
 	
 	</body>
 </html>

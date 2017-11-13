@@ -23,8 +23,8 @@
 	
 	
 	
-	<!--Logout Buuton-->
-	<a href="/logout" class="logout">Logout</a>
+	<!--Login Buuton-->
+	<a href="/login.html" class="login"> Login</a>
 	<!--Suchleiste-->
 	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
 	<button type="Suchen" id="suchen">Suchen</button>
@@ -34,38 +34,35 @@
 		<div class="pcbutton">
 		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
 		  <div id="myDropdown1" class="pcbutton-content1">
-			<a href="verkauf_notebook.html">Notebook</a>
-			<a href="#Tastatur">PC</a>
-			<a href="#Monitor">Monitor</a>
-			<a href="#Etc">etc</a>
+			<a href="verkauf_notebook">Notebook</a>
+			<a href="verkauf_pc">PC</a>
+
 		  </div>
 		</div>
 		
 		<div class="monitorbutton">
 		<button id="myBtn2" class="dropbtn2">Monitor</button>
 		  <div id="myDropdown2" class="monitorbutton-content2">
-			<a href="#4k">4k</a>
-			<a href="#FullHd">Full-HD</a>
-			<a href="#Etc">etc</a>
+			<a href="verkauf_4k.html">4k</a>
+			<a href="verkauf_fullhd.html">Full-HD</a>
 		  </div>
 		</div>
 		
 		<div class="zubehoerbutton">
 		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
 		  <div id="myDropdown3" class="zubehoerbutton-content3">
-			<a href="#shit">Shit</a>
-			<a href="#lit">Lit</a>
-			<a href="#Etc">etc</a>
+			<a href="verkauf_maus.html">Maus</a>
+			<a href="verkauf_tastatur.html">Tastatur</a>
+			<a href="verkauf_kabel.html">Kabel</a>
 		  </div>
 		</div>
 		
 		<div class="konsolenbutton">
 		<button id="myBtn4" class="dropbtn4">Konsolen</button>
 		  <div id="myDropdown4" class="konsolenbutton-content4">
-			<a href="#ps4">PS4</a>
-			<a href="#XBOX">XBOX One</a>
-			<a href="#Nintendo">Nintendo Switch</a>
-			<a href="#Etc">etc</a>
+			<a href="verkauf_ps.html">PlayStation</a>
+			<a href="verkauf_xbox.html">XBOX</a>
+			<a href="verkauf_nintendo.html">Nintendo</a>
 		  </div>
 		</div>
 
@@ -114,7 +111,7 @@
 	</header>	
 		
 	<footer>
-	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="200">
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="150">
 	<!---schwarze Linien----->	
 	<div id="blackRow">&nbsp;</div>
 	<div id="blackRow2">&nbsp;</div>
@@ -145,25 +142,24 @@
 	
 	<!--Registrierungsbutton-->
 	<p class="GBAY-Reg">Immer noch kein GBAY-Konto?</p>
-	<h9>Immer noch kein GBAY-Konto?</h9>
+
 	<a href="/registrieren.html" class="reg_button">Kostenlos Anmelden</a>
 	
 			
 	</footer>
 	
-	
-	
-	<!-----Gallerie---------------------------------------------->
+		<!-----Gallerie---------------------------------------------->
 	
 	<!--Erstes Produkt------->
-	<img src="images/LG 14Z960 UltraSlim Notebook.jpg" id="ultslimpic" width="200" height="200">
 	
-	<h7>
-		 <%= products[2].name %>
-	</h7>
+	<img src="images/CSL Multimedia PC Sprint 5845Pro (Quad) inkl. WIN 7 Pro.jpg" id="cslpcpic" width="230" height="250">
 	
+	<h12>CSL Multimedia PC Sprint 5845Pro (Quad) inkl. Windows 7 Professional<br>
+	AMD A10-9700 4x 3500 MHz, 8 GB RAM, 1000 GB SATA, Radeon R7, DVD-RW,<br> Gigabit LAN, USB 3.1
+	</h12>
+	<!-- <%= products[2].name %> -->
 	
-	<table id="table1">
+	<table id="table3">
 		<tr>
 			<th>Marke</th>
 			<td>MSI</td>	
@@ -173,28 +169,52 @@
 			<td>DS B1</td>			
 		</tr>
 		<tr>
-			<th>Artikelgewicht</th>
-			<td>181 g</td>			
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>14 Zoll</td>			
 		</tr>
 		<tr>
-			<th>Produktabmessungen</th>
-			<td>20,5 x 15,5 x 8,5 cm</td>			
-		</tr>		
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i5 6200U (2.8 GHz) LGA 1356 (Socket B2) </td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>4096 MB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB</td>			
+		</tr>
+		<tr>
+			<th>Festplatten-Technologie</th>
+			<td>SSD</td>			
+		</tr>
+		</tr>
+		
 	</table>
 	
-	<h8>Preis: <%= products[2].price %></h8>
-
-	<a href="" class="warenkorb" id="ultslimnotebook"> In den Warenkorb</a>
+	<h13>419,-</h13><!-- <%= products[2].price %> -->
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="cslpcwarenkorb"> In den Warenkorb</a>
+	
 	
 	<!--zweites Produkt------->
-	<img src="images/Kiebel Gaming Laptop Ultra 7.0 [181167].jpg" id="kiebellaptop" width="200" height="200">
 	
-	<h10>
-		 <%= products[3].name %>
-	</h10>
+	<img src="images/Ankermann-PC Wildrabbit GAMER.jpg" id="ankermannpc" width="230" height="250">
+	
+	<h14>
+		Ankermann-PC WildRabbit GAMER, AMD 950 4x 3.50GHz, 
+		Zotac GeForce GTX 1060 6GB,<br> 8GB DDR4 2400, 1TB HDD, 
+		Microsoft Windows 10 Professional, EAN 4260409311688
+	</h14>
 	
 	
-	<table id="table2">
+	<table id="table4">
 		<tr>
 			<th>Marke</th>
 			<td>Kiebel</td>	
@@ -204,28 +224,65 @@
 			<td>181167</td>			
 		</tr>
 		<tr>
-			<th>Artikelgewicht</th>
-			<td>3,9 Kg</td>			
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>17.3 Zoll</td>			
 		</tr>
 		<tr>
-			<th>Grafikkarte</th>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i7-7700 4x 3.6GHz</td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>16 GB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB, 1000 GB</td>			
+		</tr>
+		<tr>
+			<th>Beschreibung Grafikkarte</th>
 			<td>nVidia Geforce GTX 1070 8GB GDDR5</td>			
+		</tr>
 		</tr>		
 	</table>
 	
-	<h11>Preis: <%= products[3].price %></h11>
+	<h15>819.-</h15>
 
-	<a href="" class="warenkorb" id="kiebelwarenkorb"> In den Warenkorb</a>
+	<a href="" class="warenkorb" id="ankermannpcwarenkorb"> In den Warenkorb</a>
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+
+	
+	<!--drittes Produkt------->
+	
+	<div id="trennlinie8">&nbsp;</div>
 	
 	
-		<br>
-	<br>
-	<br>
-	<br><br>
-	
-	<p1>Willkommen, <%= username %></p1>   
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
 	
 	</body>
 </html>

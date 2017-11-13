@@ -63,20 +63,30 @@ app.post('/impressum', function(request, response) {
 	
 });
 
+//Verkauf Notebook
+app.get('/verkauf_notebook',(request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_notebook_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_notebook.html');
+    }   
+});
+
+//Verkauf PC
+app.get('/verkauf_pc', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_pc_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_pc.html');
+	}
+});
+
 //Kontakt
 app.post('/kontakt', function(request, response) {
 	response.render('kontakt');
 	
 });
 
-//Verkauf Notebook
-app.get('/logged', (request, response) =>{
-	if (request.session.authenticated){
-		rresponse.render('verkauf_notebook_logged', {'username': request.session.username});
-	}else{
-		response.sendFile(__dirname + '/verkauf_notebook.html');
-	}
-});
 
 
 //Homebutton
@@ -98,9 +108,6 @@ app.get('/registrieren', (request, response) => {
 });
 
 
-//create a new user in here (task 1)
-//check if the user already exists before creating him (task 3)
-//encrypt the password (task 4)
 app.post('/registrieren', (request, response) => {
     const username = request.body.username;
     const password = request.body.password;
@@ -145,8 +152,7 @@ app.post('/registrieren', (request, response) => {
     });
 });
 
-//log the user into his account (task 2)
-//make him login via sessions (task 5)
+
 app.post('/login', (request, response) => {
    const username = request.body.username;
    const password = request.body.password;
@@ -207,14 +213,21 @@ app.post('/delete/:id', (request, response) => {
     });
 });
 
-//Produkte auf der Startseite anzeigen lassen
-app.get('/verkauf_notebook', (request, response) => {
+
+/* app.get('/verkauf_notebook', (request, response) => {
     db.collection(DB_COLLECTION2).find().toArray(function (err, result) {
         if (err) return console.log(err);
-        response.render('verkauf_notebook', { 'products': result});
+        response.render('verkauf_notebook_logged2', { 'products': result});
     });   
 });
-
+//Produkte auf der Startseite anzeigen lassen
+app.get('/verkauf_notebook_logged2', (request, response) => {
+    db.collection(DB_COLLECTION2).find().toArray(function (err, result) {
+        if (err) return console.log(err);
+        response.render('verkauf_notebook_logged2', { 'products': result});
+    });   
+});
+ */
 
 
 
