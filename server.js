@@ -81,6 +81,89 @@ app.get('/verkauf_pc', (request, response) => {
 	}
 });
 
+//Verkauf Maus
+app.get('/verkauf_maus', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_maus_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_maus.html');
+	}
+});
+
+//Verkauf Tastatur
+app.get('/verkauf_tastatur', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_tastatur_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_tastatur.html');
+	}
+});
+
+
+//Verkauf Kabel
+app.get('/verkauf_kabel', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_kabel_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_kabel.html');
+	}
+});
+
+//Verkauf playStation
+app.get('/verkauf_ps', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_ps_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_ps.html');
+	}
+});
+
+//Verkauf xbox
+app.get('/verkauf_xbox', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_xbox_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_xbox.html');
+	}
+});
+
+//Verkauf nintendo
+app.get('/verkauf_nintendo', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_nintendo_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_nintendo.html');
+	}
+});
+
+//Verkauf Monitor
+app.get('/verkauf_monitor', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_monitor_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_monitor.html');
+	}
+});
+
+
+//Verkauf Fernseher
+app.get('/verkauf_fernseher', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_fernseher_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_fernseher.html');
+	}
+});
+
+//Verkauf Heimkino
+app.get('/verkauf_heimkino', (request, response) => {
+	if (request.session.authenticated) {
+		response.render('verkauf_heimkino_logged', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/verkauf_heimkino.html');
+	}
+});
+
 //Kontakt
 app.post('/kontakt', function(request, response) {
 	response.render('kontakt');

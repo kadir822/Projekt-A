@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html>
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Maus</title>
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+	<header>
+	<!--Überschrift--->
+	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
+	
+	<div id="box2" class="GBAY">GBAY</div>
+	<img src="images/GBAY_Logo.png" id="logo_header"; width="200" height="200">
+	<a href="/" class="homebutton_logo" method = "post"></a>
+	
+	<!--Warenkorb Logo--->
+	<img src="images/warenkorb.png" id="warenkorb_logo"; width="200" height="200">
+	<a href="/" class="warenkorb_logo" method = "post">Warenkorb</a>
+	
+	
+	
+	<!--Logout Buuton-->
+	<a href="/logout" class="logout">Log---out</a>
+	
+	<!--Suchleiste-->
+	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
+	<button type="Suchen" id="suchen">Suchen</button>
+	
+	<div class="wrapper">
+		
+		<div class="pcbutton">
+		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
+		  <div id="myDropdown1" class="pcbutton-content1">
+			<a href="verkauf_notebook">Notebook</a>
+			<a href="verkauf_pc">PC</a>
+
+		  </div>
+		</div>
+		
+		<div class="tvbutton">
+		<button id="myBtn2" class="dropbtn2">TV + Audio</button>
+		  <div id="myDropdown2" class="tvbutton-content2">
+			<a href="verkauf_monitor">Monitore</a>
+			<a href="verkauf_fernseher">Fernseher</a>
+			<a href="verkauf_heimkino">Heimkino</a>
+		  </div>
+		</div>
+		
+		<div class="zubehoerbutton">
+		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
+		  <div id="myDropdown3" class="zubehoerbutton-content3">
+			<a href="verkauf_maus">Maus</a>
+			<a href="verkauf_tastatur">Tastatur</a>
+			<a href="verkauf_kabel">Kabel</a>
+		  </div>
+		</div>
+		
+		<div class="konsolenbutton">
+		<button id="myBtn4" class="dropbtn4">Konsolen</button>
+		  <div id="myDropdown4" class="konsolenbutton-content4">
+			<a href="verkauf_ps">PlayStation</a>
+			<a href="verkauf_xbox">XBOX</a>
+			<a href="verkauf_nintendo">Nintendo</a>
+		  </div>
+		</div>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn1").onclick = function() {myFunction1()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction1() {
+			document.getElementById("myDropdown1").classList.toggle("show1");
+		}
+	</script>
+	
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn2").onclick = function() {myFunction2()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction2() {
+			document.getElementById("myDropdown2").classList.toggle("show2");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn3").onclick = function() {myFunction3()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction3() {
+			document.getElementById("myDropdown3").classList.toggle("show3");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn4").onclick = function() {myFunction4()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction4() {
+			document.getElementById("myDropdown4").classList.toggle("show4");
+		}
+	</script>
+	
+	<div class="clearfix"></div>
+		
+	</header>	
+		
+	<footer>
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="200">
+	<!---schwarze Linien----->	
+	<div id="blackRow">&nbsp;</div>
+	<div id="blackRow2">&nbsp;</div>
+	<div id="dashedborder">&nbsp;</div>
+	
+	
+	<div id="downline">&nbsp;</div>
+	<div id="downline2">&nbsp;</div>
+	<!---Impressum button--->
+	<form action = "/impressum" method = "post">
+		<div class="impressum">
+			<button id="myImprs" class="imprs">Impressum</button>
+		</div>
+	</form>	
+	<!---Kontakt button--->
+	<form action = "/kontakt" method = "post">
+		<div class="kontakt">
+			<button id="mykont" class="kont">Kontakt</button>
+		</div>
+	</form>	
+	
+	<!--Homebutton-->
+	<a href="/" class="homebutton" method = "post">Homepage</a>
+	<!--Versandbutton-->
+	<a href="/versand.html" class="versandbutton" method = "post">Versand</a>
+	<!--Über GBAY-->
+	<a href="/uebergbay.html" class="uebergbaybutton" method = "post">Ueber GBAY</a>
+	
+	<!--Registrierungsbutton-->
+	<p class="GBAY-Reg">Immer noch kein GBAY-Konto?</p>
+	
+	<a href="/registrieren.html" class="reg_button">Kostenlos Anmelden</a>
+	
+			
+	</footer>
+	
+	
+	
+	<!--Erstes Produkt------->
+
+	<img src="images/RAZER-DeathAdder.png" id="razermauspic" width="200" height="200">
+	
+	<h7>RAZER DeathAdder Gaming-Maus, Maus, kabelgebunden, Schwarz mit gruener Beleuchtung</h7>
+	
+	<table id="table1">
+		<tr>
+			<th>Marke</th>
+			<td>Razer</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>DeathAdder</td>			
+		</tr>
+		<tr>
+			<th>Signalübertragung</th>
+			<td>kabelgebunden</td>			
+		</tr>
+		<tr>
+			<th>Signaleingang</th>
+			<td>Optisch mit Laserdioden</td>			
+		</tr>
+		<tr>
+			<th>Max. Auflösung</th>
+			<td>6.400 dpi</td>			
+		</tr>
+		<tr>
+			<th>Unterstützte Plattformen</th>
+			<td>PC, Mac</td>
+		<tr>
+			<th>Unterstützte Betriebssysteme</th>
+			<td>Windows XP, Vista, 7, 8, Mac OS X (v10.6 oder höher)</td>			
+		</tr>
+		<tr>
+			<th>Lieferumfang</th>
+			<td>Razer DeathAdder Gaming-Maus, Handbuch</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h8>9,90.-</h8>
+
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
+	
+	
+	<a href="" class="warenkorb" id="razermauswarenkorb"> In den Warenkorb</a>
+	
+	
+	<!--zweites Produkt------->
+	<img src="images/Apple Maus.png" id="appplemauspic" width="300" height="250">
+	
+	<h10>
+	APPLE MLA02Z/A, Magic Mouse 2, kabellos, Weiß
+	</h10>
+	
+	
+	<table id="table2">
+		<tr>
+			<th>Marke</th>
+			<td>Apple</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>MLA02Z/A</td>			
+		</tr>
+		<tr>
+			<th>Signalübertragung</th>
+			<td>kabellos</td>			
+		</tr>
+		<tr>
+			<th>Besondere Merkmale</th>
+			<td>Multi-Touch</td>			
+		</tr>
+		<tr>
+			<th>Produkttyp</th>
+			<td>Magic Mouse 2</td>			
+		</tr>
+		<tr>
+			<th>Unterstützte Plattformen</th>
+			<td>Mac mit Bluetooth und OS X 10.11 oder neuer</td>
+		<tr>
+			<th>Anschlüsse</th>
+			<td>1x Bluetooth, 1x Lightning</td>			
+		</tr>
+		<tr>
+			<th>Lieferumfang</th>
+			<td>Magic Mouse 2, Lightning auf USB Kabel</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h11>88,99.-</h11>
+
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="applemauswarenkorb"> In den Warenkorb</a>
+
+	<!--drittes Produkt------->
+	<img src="images/Microsoft wirelss maus.png" id="microsoftmauspic" width="300" height="250">
+	
+	<h17>MICROSOFT Wireless Mobile Mouse 4000, Maus, kabellos, Graphite/Grau</h17>
+	
+	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>Microsoft</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>4000</td>			
+		</tr>
+		<tr>
+			<th>Signalübertragung</th>
+			<td>kabellos</td>			
+		</tr>
+		<tr>
+			<th>Unterstützte Betriebssysteme</th>
+			<td>Windows 10, 8.1 , 8, 7, Windows RT, Mac OS v10.7-10.9BlueTrack Sensor</td>			
+		</tr>
+		<tr>
+			<th>Produkttyp</th>
+			<td>Maus</td>			
+		</tr>
+		<tr>
+			<th>Unterstützte Plattformen</th>
+			<td>PC, Mac</td>
+		<tr>
+			<th>Anzahl Funktionstasten</th>
+			<td>4</td>			
+		</tr>
+		<tr>
+			<th>Lieferumfang</th>
+			<td>Maus</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h18>20,99.-</h18>
+	
+
+	
+	<div id="trennlinie7">&nbsp;</div>
+	<div id="trennlinie8">&nbsp;</div>
+	<div id="trennlinie9">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="microsoftmauswarenkorb"> In den Warenkorb</a>
+	
+	
+	
+	
+	<h16>Willkommen, <%= username %></h16> 
+	
+	
+	
+	</body>
+</html>

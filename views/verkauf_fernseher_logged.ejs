@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<html>
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Notebook</title>
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+	<header>
+	<!--Überschrift--->
+	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
+	
+	<div id="box2" class="GBAY">GBAY</div>
+	<img src="images/GBAY_Logo.png" id="logo_header"; width="200" height="200">
+	<a href="/" class="homebutton_logo" method = "post"></a>
+	
+	<!--Warenkorb Logo--->
+	<img src="images/warenkorb.png" id="warenkorb_logo"; width="200" height="200">
+	<a href="/" class="warenkorb_logo" method = "post">Warenkorb</a>
+	
+	
+	
+	<!--Logout Buuton-->	
+	<a href="/logout" class="logout">Log---out</a>
+	<!--Suchleiste-->
+	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
+	<button type="Suchen" id="suchen">Suchen</button>
+	
+	<div class="wrapper">
+		
+		<div class="pcbutton">
+		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
+		  <div id="myDropdown1" class="pcbutton-content1">
+			<a href="verkauf_notebook">Notebook</a>
+			<a href="verkauf_pc">PC</a>
+
+		  </div>
+		</div>
+		
+		<div class="tvbutton">
+		<button id="myBtn2" class="dropbtn2">TV + Audio</button>
+		  <div id="myDropdown2" class="tvbutton-content2">
+			<a href="verkauf_monitor">Monitore</a>
+			<a href="verkauf_fernseher">Fernseher</a>
+			<a href="verkauf_heimkino">Heimkino</a>
+		  </div>
+		</div>
+		
+		<div class="zubehoerbutton">
+		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
+		  <div id="myDropdown3" class="zubehoerbutton-content3">
+			<a href="verkauf_maus">Maus</a>
+			<a href="verkauf_tastatur">Tastatur</a>
+			<a href="verkauf_kabel">Kabel</a>
+		  </div>
+		</div>
+		
+		<div class="konsolenbutton">
+		<button id="myBtn4" class="dropbtn4">Konsolen</button>
+		  <div id="myDropdown4" class="konsolenbutton-content4">
+			<a href="verkauf_ps">PlayStation</a>
+			<a href="verkauf_xbox">XBOX</a>
+			<a href="verkauf_nintendo">Nintendo</a>
+		  </div>
+		</div>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn1").onclick = function() {myFunction1()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction1() {
+			document.getElementById("myDropdown1").classList.toggle("show1");
+		}
+	</script>
+	
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn2").onclick = function() {myFunction2()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction2() {
+			document.getElementById("myDropdown2").classList.toggle("show2");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn3").onclick = function() {myFunction3()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction3() {
+			document.getElementById("myDropdown3").classList.toggle("show3");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn4").onclick = function() {myFunction4()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction4() {
+			document.getElementById("myDropdown4").classList.toggle("show4");
+		}
+	</script>
+	
+	<div class="clearfix"></div>
+		
+	</header>	
+		
+	<footer>
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="150">
+	<!---schwarze Linien----->	
+	<div id="blackRow">&nbsp;</div>
+	<div id="blackRow2">&nbsp;</div>
+	<div id="dashedborder">&nbsp;</div>
+	
+	
+	<div id="downline">&nbsp;</div>
+	<div id="downline2">&nbsp;</div>
+	<!---Impressum button--->
+	<form action = "/impressum" method = "post">
+		<div class="impressum">
+			<button id="myImprs" class="imprs">Impressum</button>
+		</div>
+	</form>	
+	<!---Kontakt button--->
+	<form action = "/kontakt" method = "post">
+		<div class="kontakt">
+			<button id="mykont" class="kont">Kontakt</button>
+		</div>
+	</form>	
+	
+	<!--Homebutton-->
+	<a href="/" class="homebutton" method = "post">Homepage</a>
+	<!--Versandbutton-->
+	<a href="/versand.html" class="versandbutton" method = "post">Versand</a>
+	<!--Über GBAY-->
+	<a href="/uebergbay.html" class="uebergbaybutton" method = "post">Ueber GBAY</a>
+	
+	<!--Registrierungsbutton-->
+	<p class="GBAY-Reg">Immer noch kein GBAY-Konto?</p>
+
+	<a href="/registrieren.html" class="reg_button">Kostenlos Anmelden</a>
+	
+			
+	</footer>
+	<!--Von <head> bis </footer> kann so übernommen werden----------->
+	<!-------------------------MAIN----------------------------------->
+	
+	<!-----MAIN---------------------------------------------->
+	
+	<!--Erstes Produkt------->
+	
+	<img src="images/samsung tv.jpg" id="samsungtvpic" width="300" height="250">
+	
+	<h7>Samsung MU6179 108 cm (43 Zoll) Fernseher 
+	(Ultra HD, HDR, Triple Tuner, Smart TV)
+	</h7>
+
+	
+	<table id="table1">
+		<tr>
+			<th>Marke</th>
+			<td>Samsung</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>MU6179</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>43 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Auflösung</th>
+			<td> 3.840 x 2.160 Pixel (Ultra HD)</td>			
+		</tr>	
+		<tr>
+			<th>Bild-Engine</th>
+			<td>UHD Upscaling</td>			
+		</tr>
+		<tr>
+			<th>Energieverbrauch im Ein-Zustand </th>
+			<td>71 Watt</td>
+		<tr>
+			<th>Samsung PQI (Picture Quality Index)</th>
+			<td>1300</td>			
+		</tr>
+		<tr>
+			<th>Samsung Smart Hub</th>
+			<td>Ja</td>			
+		</tr>
+		</tr>
+		
+	</table>
+	
+	<h8>479,-</h8>
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
+	
+	
+	<a href="" class="warenkorb" id="samsungtvwarenkorb"> In den Warenkorb</a>
+	
+	
+	<!--zweites Produkt------->
+	<img src="images/sony tv.jpg" id="sonytvpic" width="300" height="250">
+	
+	<h10>
+		Sony KD-65XD7505 164 cm (65 Zoll) Fernseher (Ultra HD, Smart TV)
+	</h10>
+	
+	
+	<table id="table2">
+		<tr>
+			<th>Marke</th>
+			<td>Sony</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>KD-65XD7505</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>65 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Auflösung</th>
+			<td> 3.840 x 2.160 Pixel (Ultra HD)</td>			
+		</tr>	
+		<tr>
+			<th>HDR kompatibel</th>
+			<td>Ja</td>			
+		</tr>
+		<tr>
+			<th>Displaytechnologie</th>
+			<td>LCD</td>
+		<tr>
+			<th>HDMI / USB</th>
+			<td>4 HDMI Anschlüsse / 3 USB Anschlüsse</td>			
+		</tr>
+		<tr>
+			<th>Smart TV Funktionen</th>
+			<td>Android TV (Google Cast, Google Play)</td>			
+		</tr>
+		</tr>
+		
+	</table>
+	
+	<h11>1999.-</h11>
+
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="sonytvwarenkorb"> In den Warenkorb</a>
+
+	
+	<!--drittes Produkt------->
+	<img src="images/lg tv.jpg" id="lgtvpic" width="300" height="250">
+	
+	<h17>LG OLED65B7D 164 cm (65 Zoll) OLED Fernseher
+	(Ultra HD, Dual Triple Tuner, Smart TV)</h17>
+	
+	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>LG</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>OLED65B7D</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>65 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Auflösung</th>
+			<td> 3.840 x 2.160 Pixel (Ultra HD)</td>			
+		</tr>	
+		<tr>
+			<th>Tuner</th>
+			<td>Dual Triple Tuner</td>			
+		</tr>
+		<tr>
+			<th>Displaytechnologie</th>
+			<td>OLED</td>
+		<tr>
+			<th>HDMI / USB</th>
+			<td>4 x HDMI, 2 x USB 2.0, 1 x USB 3.0</td>			
+		</tr>
+		<tr>
+			<th>Brandspecific Highlight</th>
+			<td>OLED 4K, Active HDR With Dolby Vision</td>			
+		</tr>
+		</tr>
+		
+	</table>
+	
+	<h18>749.-</h18>
+	
+
+	
+	<div id="trennlinie7">&nbsp;</div>
+	<div id="trennlinie8">&nbsp;</div>
+	<div id="trennlinie9">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="lgtvwarenkorb"> In den Warenkorb</a>
+	
+	
+	</body>
+</html>

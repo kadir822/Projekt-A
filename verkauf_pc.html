@@ -40,31 +40,33 @@
 		  </div>
 		</div>
 		
-		<div class="monitorbutton">
-		<button id="myBtn2" class="dropbtn2">Monitor</button>
-		  <div id="myDropdown2" class="monitorbutton-content2">
-			<a href="verkauf_4k.html">4k</a>
-			<a href="verkauf_fullhd.html">Full-HD</a>
+		<div class="tvbutton">
+		<button id="myBtn2" class="dropbtn2">TV + Audio</button>
+		  <div id="myDropdown2" class="tvbutton-content2">
+			<a href="verkauf_monitor">Monitore</a>
+			<a href="verkauf_fernseher">Fernseher</a>
+			<a href="verkauf_heimkino">Heimkino</a>
 		  </div>
 		</div>
 		
 		<div class="zubehoerbutton">
 		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
 		  <div id="myDropdown3" class="zubehoerbutton-content3">
-			<a href="verkauf_maus.html">Maus</a>
-			<a href="verkauf_tastatur.html">Tastatur</a>
-			<a href="verkauf_kabel.html">Kabel</a>
+			<a href="verkauf_maus">Maus</a>
+			<a href="verkauf_tastatur">Tastatur</a>
+			<a href="verkauf_kabel">Kabel</a>
 		  </div>
 		</div>
 		
 		<div class="konsolenbutton">
 		<button id="myBtn4" class="dropbtn4">Konsolen</button>
 		  <div id="myDropdown4" class="konsolenbutton-content4">
-			<a href="verkauf_ps.html">PlayStation</a>
-			<a href="verkauf_xbox.html">XBOX</a>
-			<a href="verkauf_nintendo.html">Nintendo</a>
+			<a href="verkauf_ps">PlayStation</a>
+			<a href="verkauf_xbox">XBOX</a>
+			<a href="verkauf_nintendo">Nintendo</a>
 		  </div>
 		</div>
+
 
 	<script>
 		// Get the button, and when the user clicks on it, execute myFunction
@@ -148,73 +150,93 @@
 			
 	</footer>
 	
-		<!-----Gallerie---------------------------------------------->
+	<!-----MAIN---------------------------------------------->
+	<script>
+	// When the user clicks on div, open the popup
+	function warenkorbFunkt1() {
+		var popupwarenkorb1 = document.getElementById("warenkorb1");
+		popupwarenkorb1.classList.toggle("show");
+	}
+	</script>
+	<script>
+	function warenkorbFunkt2() {
+		var popupwarenkorb2 = document.getElementById("warenkorb2");
+		popupwarenkorb2.classList.toggle("show");
+	}
+	</script>
 	
+	<script>
+	function warenkorbFunkt3() {
+		var popupwarenkorb3 = document.getElementById("warenkorb3");
+		popupwarenkorb3.classList.toggle("show");
+	}
+	</script>
 	<!--Erstes Produkt------->
 	
 	<img src="images/CSL Multimedia PC Sprint 5845Pro (Quad) inkl. WIN 7 Pro.jpg" id="cslpcpic" width="230" height="250">
 	
-	<h12>CSL Multimedia PC Sprint 5845Pro (Quad) inkl. Windows 7 Professional<br>
+	<h7>CSL Multimedia PC Sprint 5845Pro (Quad) inkl. Windows 7 Professional<br>
 	AMD A10-9700 4x 3500 MHz, 8 GB RAM, 1000 GB SATA, Radeon R7, DVD-RW,<br> Gigabit LAN, USB 3.1
-	</h12>
-	<!-- <%= products[2].name %> -->
+	</h7>
 	
-	<table id="table3">
+	
+	<table id="table1">
 		<tr>
 			<th>Marke</th>
-			<td>MSI</td>	
+			<td>CSL</td>	
 		</tr>
 		<tr>
 			<th>Modell/Serie</th>
-			<td>DS B1</td>			
+			<td>5845Pro</td>			
 		</tr>
 		<tr>
-			<th>Bildschirmdiagonale (Zoll)</th>
-			<td>14 Zoll</td>			
+			<th>Zusätzliche Laufwerke</th>
+			<td>DVD+-RW</td>			
 		</tr>
 		<tr>
 			<th>Betriebssystem</th>
-			<td>Windows 10 Home</td>			
+			<td>Windows 7 Professional</td>			
 		</tr>	
 		<tr>
 			<th>Prozessor</th>
-			<td>Intel Core i5 6200U (2.8 GHz) LGA 1356 (Socket B2) </td>			
+			<td>AMD A10-9700 4x 3500 MHz</td>			
 		</tr>
 		<tr>
 			<th>Arbeitsspeicher-Größe</th>
-			<td>4096 MB</td>
+			<td>8 GB</td>
 		<tr>
 			<th>Festplattenkapazität</th>
-			<td>256 GB</td>			
+			<td>1000 GB</td>			
 		</tr>
 		<tr>
-			<th>Festplatten-Technologie</th>
-			<td>SSD</td>			
+			<th>Beschreibung Grafikkarte<</th>
+			<td>AMD Radeon R7 Grafik, 2 GB</td>			
 		</tr>
 		</tr>
-		
 	</table>
 	
-	<h13>419,-</h13><!-- <%= products[2].price %> -->
+	<h8>419,-</h8>
 	<div id="trennlinie1">&nbsp;</div>
 	<div id="trennlinie2">&nbsp;</div>
 	<div id="trennlinie3">&nbsp;</div>
 	
-	<a href="" class="warenkorb" id="cslpcwarenkorb"> In den Warenkorb</a>
+	<div class="popupwarenkorb1" onclick="warenkorbFunkt1()">In den Warenkorb
+		<span  class="warenkorb" id="warenkorb1"> Anmeldung erforderlich!</span>
+	</div>
 	
 	
 	<!--zweites Produkt------->
 	
 	<img src="images/Ankermann-PC Wildrabbit GAMER.jpg" id="ankermannpc" width="230" height="250">
 	
-	<h14>
+	<h10>
 		Ankermann-PC WildRabbit GAMER, AMD 950 4x 3.50GHz, 
 		Zotac GeForce GTX 1060 6GB,<br> 8GB DDR4 2400, 1TB HDD, 
 		Microsoft Windows 10 Professional, EAN 4260409311688
-	</h14>
+	</h10>
 	
 	
-	<table id="table4">
+	<table id="table2">
 		<tr>
 			<th>Marke</th>
 			<td>Kiebel</td>	
@@ -249,40 +271,72 @@
 		</tr>		
 	</table>
 	
-	<h15>819.-</h15>
+	<h11>819.-</h11>
 
-	<a href="" class="warenkorb" id="ankermannpcwarenkorb"> In den Warenkorb</a>
+
 	
 	<div id="trennlinie4">&nbsp;</div>
 	<div id="trennlinie5">&nbsp;</div>
 	<div id="trennlinie6">&nbsp;</div>
 
+	<div class="popupwarenkorb2" onclick="warenkorbFunkt2()">In den Warenkorb
+		<span class="warenkorb" id="warenkorb2">Anmeldung erforderlich!</span>
+	</div>
 	
 	<!--drittes Produkt------->
+	<img src="images/Kiebel Gamer-PC [184551].jpg" id="kiebelpc" width="300" height="250">
+
+	<h17>Kiebel Gamer-PC [184551] 
+	AMD Achtkerner FX8300 8x 3.3GHz (Turbo bis 4.2GHz) <br> 16GB DDR3 HyperX | ASUS |
+	240GB SSD + 1TB | NVIDIA GTX 1060 6GB DDR5
+	| DVD <br> Sound | LAN | Windows 10 | Computer</h17>
 	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>Kiebel</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>520</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>14 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i5-7200U 2 x 2.5 GHz</td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>8 GB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB</td>			
+		</tr>
+		<tr>
+			<th>Beschreibung Grafikkarte</th>
+			<td>Intel HD Graphics 620</td>			
+		</tr>
+		</tr>		
+	</table>
+
+	<h18>899.-</h18>
+
+	
+	<div id="trennlinie7">&nbsp;</div>
 	<div id="trennlinie8">&nbsp;</div>
+	<div id="trennlinie9">&nbsp;</div>	
 	
+	<div class="popupwarenkorb3" onclick="warenkorbFunkt3()">In den Warenkorb
+		<span class="warenkorb" id="warenkorb3">Anmeldung erforderlich!</span>
+	</div>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
 	
 	</body>
 </html>

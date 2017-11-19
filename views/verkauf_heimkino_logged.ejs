@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Notebook</title>
+		<link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+	<header>
+	<!--Überschrift--->
+	<img src="images/Banner_Header.jpeg" id="banner_header"; width="200" height="200">
+	
+	<div id="box2" class="GBAY">GBAY</div>
+	<img src="images/GBAY_Logo.png" id="logo_header"; width="200" height="200">
+	<a href="/" class="homebutton_logo" method = "post"></a>
+	
+	<!--Warenkorb Logo--->
+	<img src="images/warenkorb.png" id="warenkorb_logo"; width="200" height="200">
+	<a href="/" class="warenkorb_logo" method = "post">Warenkorb</a>
+	
+	
+	
+	<!--Logout Buuton-->	
+	<a href="/logout" class="logout">Log---out</a>
+	<!--Suchleiste-->
+	<input type="text" id="Suchen" name="Suchen" placeholder="Suche...">
+	<button type="Suchen" id="suchen">Suchen</button>
+	
+	<div class="wrapper">
+		
+		<div class="pcbutton">
+		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
+		  <div id="myDropdown1" class="pcbutton-content1">
+			<a href="verkauf_notebook">Notebook</a>
+			<a href="verkauf_pc">PC</a>
+
+		  </div>
+		</div>
+		
+		<div class="tvbutton">
+		<button id="myBtn2" class="dropbtn2">TV + Audio</button>
+		  <div id="myDropdown2" class="tvbutton-content2">
+			<a href="verkauf_monitor">Monitore</a>
+			<a href="verkauf_fernseher">Fernseher</a>
+			<a href="verkauf_heimkino">Heimkino</a>
+		  </div>
+		</div>
+		
+		<div class="zubehoerbutton">
+		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
+		  <div id="myDropdown3" class="zubehoerbutton-content3">
+			<a href="verkauf_maus">Maus</a>
+			<a href="verkauf_tastatur">Tastatur</a>
+			<a href="verkauf_kabel">Kabel</a>
+		  </div>
+		</div>
+		
+		<div class="konsolenbutton">
+		<button id="myBtn4" class="dropbtn4">Konsolen</button>
+		  <div id="myDropdown4" class="konsolenbutton-content4">
+			<a href="verkauf_ps">PlayStation</a>
+			<a href="verkauf_xbox">XBOX</a>
+			<a href="verkauf_nintendo">Nintendo</a>
+		  </div>
+		</div>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn1").onclick = function() {myFunction1()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction1() {
+			document.getElementById("myDropdown1").classList.toggle("show1");
+		}
+	</script>
+	
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn2").onclick = function() {myFunction2()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction2() {
+			document.getElementById("myDropdown2").classList.toggle("show2");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn3").onclick = function() {myFunction3()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction3() {
+			document.getElementById("myDropdown3").classList.toggle("show3");
+		}
+	</script>
+
+	<script>
+		// Get the button, and when the user clicks on it, execute myFunction
+		document.getElementById("myBtn4").onclick = function() {myFunction4()};
+
+		/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+		function myFunction4() {
+			document.getElementById("myDropdown4").classList.toggle("show4");
+		}
+	</script>
+	
+	<div class="clearfix"></div>
+		
+	</header>	
+		
+	<footer>
+	<img src="images/partner_banner.jpg" id="banner_footer"; width="200" height="150">
+	<!---schwarze Linien----->	
+	<div id="blackRow">&nbsp;</div>
+	<div id="blackRow2">&nbsp;</div>
+	<div id="dashedborder">&nbsp;</div>
+	
+	
+	<div id="downline">&nbsp;</div>
+	<div id="downline2">&nbsp;</div>
+	<!---Impressum button--->
+	<form action = "/impressum" method = "post">
+		<div class="impressum">
+			<button id="myImprs" class="imprs">Impressum</button>
+		</div>
+	</form>	
+	<!---Kontakt button--->
+	<form action = "/kontakt" method = "post">
+		<div class="kontakt">
+			<button id="mykont" class="kont">Kontakt</button>
+		</div>
+	</form>	
+	
+	<!--Homebutton-->
+	<a href="/" class="homebutton" method = "post">Homepage</a>
+	<!--Versandbutton-->
+	<a href="/versand.html" class="versandbutton" method = "post">Versand</a>
+	<!--Über GBAY-->
+	<a href="/uebergbay.html" class="uebergbaybutton" method = "post">Ueber GBAY</a>
+	
+	<!--Registrierungsbutton-->
+	<p class="GBAY-Reg">Immer noch kein GBAY-Konto?</p>
+
+	<a href="/registrieren.html" class="reg_button">Kostenlos Anmelden</a>
+	
+			
+	</footer>
+	<!--Von <head> bis </footer> kann so übernommen werden----------->
+	<!-------------------------MAIN----------------------------------->
+	
+	<script>
+	// When the user clicks on div, open the popup
+	function warenkorbFunkt1() {
+		var popupwarenkorb1 = document.getElementById("warenkorb1");
+		popupwarenkorb1.classList.toggle("show");
+	}
+	</script>
+	<script>
+	function warenkorbFunkt2() {
+		var popupwarenkorb2 = document.getElementById("warenkorb2");
+		popupwarenkorb2.classList.toggle("show");
+	}
+	</script>
+	
+	<script>
+	function warenkorbFunkt3() {
+		var popupwarenkorb3 = document.getElementById("warenkorb3");
+		popupwarenkorb3.classList.toggle("show");
+	}
+	</script>
+	<!-----MAIN---------------------------------------------->
+	
+	<!--Erstes Produkt------->
+	
+	<img src="images/phillips heimkino.jpg" id="phillipsheimkinopic" width="300" height="250">
+	
+	<h7>Philips HTB3520G 5.1 Home Entertainment-System 
+	(3D Blu-ray, Bluetooth, NFC) schwarz
+	</h7>
+
+	
+	<table id="table1">
+		<tr>
+			<th>Marke</th>
+			<td>Philips</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>HTB3520G</td>			
+		</tr>
+		<tr>
+			<th>Kanäle</th>
+			<td>5.1</td>			
+		</tr>
+		<tr>
+			<th>Lautsprecher</th>
+			<td>4x Satellitenlautsprecher, 1x Center-Lautsprecher, kabelgebundener Subwoofer</td>			
+		</tr>	
+		<tr>
+			<th></th>
+			<td></td>			
+		</tr>
+		<tr>
+			<th>Leistung</th>
+			<td>1000 W</td>
+		<tr>
+			<th>Subwoofer-Typ</th>
+			<td>passiv</td>			
+		</tr>
+		<tr>
+			<th>Ausgangsleistung des Subwoofers</th>
+			<td>166 W</td>			
+		</tr>
+		</tr>
+		
+	</table>
+	
+	<h8>299,95,-</h8>
+	<div id="trennlinie1">&nbsp;</div>
+	<div id="trennlinie2">&nbsp;</div>
+	<div id="trennlinie3">&nbsp;</div>
+	
+	
+	<a href="" class="warenkorb" id="phillipsheimkinowarenkorb"> In den Warenkorb</a>
+	
+	
+	<!--zweites Produkt------->
+	<img src="images/teufel heimkino.jpg" id="teufelheimkinopic" width="300" height="250">
+	
+	<h10>
+		Teufel Consono 25 Mk3 "5.1-Set" Schwarz - 
+		Besonders kompaktes Heimkino-Lautsprecher-Set
+	</h10>
+	
+	
+	<table id="table2">
+		<tr>
+			<th>Marke</th>
+			<td>Teufel</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>Consono 25 Mk3</td>			
+		</tr>
+		<tr>
+			<th>Kanäle</th>
+			<td>5.1</td>			
+		</tr>
+		<tr>
+			<th>Lautsprecher</th>
+			<td>4x Satellitenlautsprecher, 1x Center-Lautsprecher, kabelgebundener Subwoofer</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i7-7700 4x 3.6GHz</td>			
+		</tr>
+		<tr>
+			<th>Besondere Merkmale</th>
+			<td>2-Wege-Micro-Boxen für beeindruckenden Klang, 
+			Sehr schlanker aber kräftiger 100-Watt-Subwoofer</td>
+		<tr>
+			<th></th>
+			<td></td>			
+		</tr>
+		<tr>
+			<th></th>
+			<td></td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h11>249,99.-</h11>
+
+	
+	<div id="trennlinie4">&nbsp;</div>
+	<div id="trennlinie5">&nbsp;</div>
+	<div id="trennlinie6">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="teufelheimkinowarenkorb"> In den Warenkorb</a>
+	
+	
+	<!--drittes Produkt------->
+	<img src="images/samsung heimkino.jpg" id="samsungheimkinopic" width="300" height="250">
+	
+	<h17>Samsung HT-J4500 5.1 3D Blu-ray Heimkinosystem
+	(500W, Bluetooth, FM Tuner) schwarz</h17>
+	
+	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>Samsung</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>HT-J4500</td>			
+		</tr>
+		<tr>
+			<th>Ausgangsleistung gesamt (RMS)</th>
+			<td>500 W</td>			
+		</tr>
+		<tr>
+			<th>Kanäle</th>
+			<td>5.1</td>			
+		</tr>	
+		<tr>
+			<th>Bluetooth</th>
+			<td>Ja</td>			
+		</tr>
+		<tr>
+			<th>Tuner</th>
+			<td>Ja</td>
+		<tr>
+			<th>Subwoofer-Typ</th>
+			<td>passiv</td>			
+		</tr>
+		<tr>
+			<th>Lautsprecher Typ</th>
+			<td>Satelliten-Lautsprecher</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h18>259.-</h18>
+	
+
+	
+	<div id="trennlinie7">&nbsp;</div>
+	<div id="trennlinie8">&nbsp;</div>
+	<div id="trennlinie9">&nbsp;</div>
+	
+	<a href="" class="warenkorb" id="samsungheimkinowarenkorb"> In den Warenkorb</a>
+	
+	
+	</body>
+</html>

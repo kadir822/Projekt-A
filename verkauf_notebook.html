@@ -34,35 +34,36 @@
 		<div class="pcbutton">
 		<button id="myBtn1" class="dropbtn1">PC/Laptop</button>
 		  <div id="myDropdown1" class="pcbutton-content1">
-			<a href="/verkauf_notebook_logged">Notebook</a>
-			<a href="verkauf_pc.html">PC</a>
+			<a href="verkauf_notebook">Notebook</a>
+			<a href="verkauf_pc">PC</a>
 
 		  </div>
 		</div>
 		
-		<div class="monitorbutton">
-		<button id="myBtn2" class="dropbtn2">Monitor</button>
-		  <div id="myDropdown2" class="monitorbutton-content2">
-			<a href="verkauf_4k.html">4k</a>
-			<a href="verkauf_fullhd.html">Full-HD</a>
+		<div class="tvbutton">
+		<button id="myBtn2" class="dropbtn2">TV + Audio</button>
+		  <div id="myDropdown2" class="tvbutton-content2">
+			<a href="verkauf_monitor">Monitore</a>
+			<a href="verkauf_fernseher">Fernseher</a>
+			<a href="verkauf_heimkino">Heimkino</a>
 		  </div>
 		</div>
 		
 		<div class="zubehoerbutton">
 		<button id="myBtn3" class="dropbtn3">Zubehoer</button>
 		  <div id="myDropdown3" class="zubehoerbutton-content3">
-			<a href="verkauf_maus.html">Maus</a>
-			<a href="verkauf_tastatur.html">Tastatur</a>
-			<a href="verkauf_kabel.html">Kabel</a>
+			<a href="verkauf_maus">Maus</a>
+			<a href="verkauf_tastatur">Tastatur</a>
+			<a href="verkauf_kabel">Kabel</a>
 		  </div>
 		</div>
 		
 		<div class="konsolenbutton">
 		<button id="myBtn4" class="dropbtn4">Konsolen</button>
 		  <div id="myDropdown4" class="konsolenbutton-content4">
-			<a href="verkauf_ps.html">PlayStation</a>
-			<a href="verkauf_xbox.html">XBOX</a>
-			<a href="verkauf_nintendo.html">Nintendo</a>
+			<a href="verkauf_ps">PlayStation</a>
+			<a href="verkauf_xbox">XBOX</a>
+			<a href="verkauf_nintendo">Nintendo</a>
 		  </div>
 		</div>
 
@@ -147,25 +148,30 @@
 	
 			
 	</footer>
-
+	<!--Von <head> bis </footer> kann so übernommen werden----------->
 	<!-------------------------MAIN----------------------------------->
 	
 	<script>
 	// When the user clicks on div, open the popup
-	function myFunction5() {
-		var popupLGnote = document.getElementById("ultslimnotebook");
-		popupLGnote.classList.toggle("show");
+	function warenkorbFunkt1() {
+		var popupwarenkorb1 = document.getElementById("warenkorb1");
+		popupwarenkorb1.classList.toggle("show");
 	}
 	</script>
 	<script>
-	function myFunction6() {
-		var popupkiebelnote = document.getElementById("kiebelwarenkorb");
-		popupkiebelnote.classList.toggle("show");
+	function warenkorbFunkt2() {
+		var popupwarenkorb2 = document.getElementById("warenkorb2");
+		popupwarenkorb2.classList.toggle("show");
 	}
 	</script>
 	
-	
-	<!-----Gallerie---------------------------------------------->
+	<script>
+	function warenkorbFunkt3() {
+		var popupwarenkorb3 = document.getElementById("warenkorb3");
+		popupwarenkorb3.classList.toggle("show");
+	}
+	</script>
+	<!-----MAIN---------------------------------------------->
 	
 	<!--Erstes Produkt------->
 	
@@ -213,15 +219,17 @@
 		
 	</table>
 	
-	<h8>825,-</h8><!-- <%= products[2].price %> -->
+	<h8>825,-</h8>
 	<div id="trennlinie1">&nbsp;</div>
 	<div id="trennlinie2">&nbsp;</div>
 	<div id="trennlinie3">&nbsp;</div>
 	
 	
-	<div class="popupLGnote" onclick="myFunction5()">In den Warenkorb
-		<span  class="warenkorb" id="ultslimnotebook"> Anmeldung erforderlich!</span>
+	<div class="popupwarenkorb1" onclick="warenkorbFunkt1()">In den Warenkorb
+		<span  class="warenkorb" id="warenkorb1"> Anmeldung erforderlich!</span>
 	</div>
+	
+	
 	<!--Kiebell Laptop------------------------>
 	<!--zweites Produkt------->
 	<img src="images/Kiebel Gaming Laptop Ultra 7.0 [181167].jpg" id="kiebellaptop" width="300" height="250">
@@ -270,15 +278,70 @@
 	</table>
 	
 	<h11>2.499.-</h11>
-	<div class="popupkiebelnote" onclick="myFunction6()">In den Warenkorb
-		<span class="warenkorb" id="kiebelwarenkorb">Anmeldung erforderlich!</span>
-	</div>
+
 	
 	<div id="trennlinie4">&nbsp;</div>
 	<div id="trennlinie5">&nbsp;</div>
 	<div id="trennlinie6">&nbsp;</div>
 	
+	<div class="popupwarenkorb2" onclick="warenkorbFunkt2()">In den Warenkorb
+		<span class="warenkorb" id="warenkorb2">Anmeldung erforderlich!</span>
+	</div>
+	<!--Lenovo Laptop------------------------>
+	<!--drittes Produkt------->
+	<img src="images/Lenov Yoga.jpg" id="lenovolaptop" width="300" height="250">
 	
+	<h17>Lenovo Yoga 520 35,6 cm (14,0 Zoll Full HD IPS Touch) Slim Convertible
+		Notebook<br>(Intel Core i5-7200U Dual-Core,
+		8 GB RAM, 256 GB SSD, Intel HD Graphics 620)</h17>
+	
+	
+	<table id="table3">
+		<tr>
+			<th>Marke</th>
+			<td>Lenovo</td>	
+		</tr>
+		<tr>
+			<th>Modell/Serie</th>
+			<td>520</td>			
+		</tr>
+		<tr>
+			<th>Bildschirmdiagonale (Zoll)</th>
+			<td>14 Zoll</td>			
+		</tr>
+		<tr>
+			<th>Betriebssystem</th>
+			<td>Windows 10 Home</td>			
+		</tr>	
+		<tr>
+			<th>Prozessor</th>
+			<td>Intel Core i5-7200U 2 x 2.5 GHz</td>			
+		</tr>
+		<tr>
+			<th>Arbeitsspeicher-Größe</th>
+			<td>8 GB</td>
+		<tr>
+			<th>Festplattenkapazität</th>
+			<td>256 GB</td>			
+		</tr>
+		<tr>
+			<th>Beschreibung Grafikkarte</th>
+			<td>Intel HD Graphics 620</td>			
+		</tr>
+		</tr>		
+	</table>
+	
+	<h18>749.-</h18>
+	
+
+	
+	<div id="trennlinie7">&nbsp;</div>
+	<div id="trennlinie8">&nbsp;</div>
+	<div id="trennlinie9">&nbsp;</div>
+	
+	<div class="popupwarenkorb3" onclick="warenkorbFunkt3()">In den Warenkorb
+		<span class="warenkorb" id="warenkorb3">Anmeldung erforderlich!</span>
+	</div>
 	
 	
 	</body>
