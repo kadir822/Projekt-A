@@ -14,15 +14,19 @@ app.set('view engine', 'ejs');
 //CSS Stylesheet einbinden
 app.use(express.static(__dirname + '/public'));
 
+// Name der Collection festlegen
+const DB_COLLECTION2 = "products"; 
+require('fs').mkdir(__dirname + '/tingodb', (err)=>{});
+
+const DB_Notebook = "notebooks"; 
+require('fs').mkdir(__dirname + '/tingodb', (err)=>{});
+
 //tingodb setup
 const DB_COLLECTION = 'users';
 const Db = require('tingodb')().Db;
 const db = new Db(__dirname + '/tingodb', {});
 const ObjectId = require('tingodb')().ObjectID;
 
-// Name der Collection festlegen
-const DB_COLLECTION2 = "products"; 
-require('fs').mkdir(__dirname + '/tingodb', (err)=>{});
 
 
 //session setup
@@ -62,6 +66,16 @@ app.post('/impressum', function(request, response) {
 	response.render('impressum');
 	
 });
+
+//Warenkorb
+app.get('/warenkorb',(request, response) => {
+	if (request.session.authenticated) {
+		response.render('warenkorb', {'username': request.session.username});
+	} else {
+        response.sendFile(__dirname + '/index.html');
+    }   
+});
+
 
 //Verkauf Notebook
 app.get('/verkauf_notebook',(request, response) => {
@@ -272,7 +286,7 @@ app.get('/logout', (request, response) => {
 
 //Artikel hinzufügen
 
-app.get('/addArticle', (request, response) => {
+/* app.get('/addproducts', (request, response) => {
     response.sendFile(__dirname + '/shop.html');
 });
 
@@ -280,8 +294,8 @@ app.post('/addToCart', (request, response) => {
     const name = request.body.name;
     const price = request.body.price;
 
-    const article = {'name': name, 'price': price};
-    db.collection(DB_COLLECTION2).save(article, (err, result) => {
+    const products = {'name': name, 'price': price};
+    db.collection(DB_COLLECTION2).save(products, (err, result) => {
         if (err) return console.log(err);
         response.redirect('/verkauf_notebook');
     });
@@ -294,24 +308,45 @@ app.post('/delete/:id', (request, response) => {
     db.collection(DB_COLLECTION2).remove({'_id': o_id}, (error, result) => {
         response.redirect('/verkauf_notebook');
     });
+}); */
+
+
+//Artikel hinzufügen Notebooks
+app.get('/addproducts', (request, response) => {
+    response.sendFile(__dirname + '/shop.html');
 });
 
+app.post('/addToCart', (request, response) => {
+    const name = request.body.name;
+    const price = request.body.price;
 
-/* app.get('/verkauf_notebook', (request, response) => {
-    db.collection(DB_COLLECTION2).find().toArray(function (err, result) {
+    const article = {'name': name, 'price': price};
+    db.collection(DB_Notebook).save(article, (err, result) => {
         if (err) return console.log(err);
-        response.render('verkauf_notebook_logged2', { 'products': result});
-    });   
+        response.redirect('/');
+    });
 });
+
+app.post('/delete/:id', (request, response) => {
+    const id = request.params.id;
+    const o_id = new ObjectID(id);
+
+    db.collection(DB_Notebook).remove({'_id': o_id}, (error, result) => {
+        response.redirect('/');
+    });
+});
+
+
+
+
 //Produkte auf der Startseite anzeigen lassen
-app.get('/verkauf_notebook_logged2', (request, response) => {
-    db.collection(DB_COLLECTION2).find().toArray(function (err, result) {
+app.get('/verkauf_notebook', (request, response) => {
+    db.collection(DB_Notebook).find().toArray(function (err, result) {
         if (err) return console.log(err);
-        response.render('verkauf_notebook_logged2', { 'products': result});
+        response.render('verkauf_notebook_logged', { 'notebooks': result});
     });   
 });
- */
-
+ 
 
 
 

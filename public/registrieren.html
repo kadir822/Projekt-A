@@ -152,8 +152,26 @@
 	
 	
 	
-        <h1>Registration </h1>
-        <form action="/registrieren" method="POST">
+        <h1>Registrierung</h1>
+		
+		<a href="/" class="previous" id="return_button">Abbrechen</a>
+	<img src="images/GBAY_Logo sw.png" id="logo_header_login"; width="200" height="200">
+	<div id="blackRow4">&nbsp;</div>
+	<div id="grauerKasten">&nbsp;</div>
+
+
+	<form action="/registrieren" method="POST" >
+		<h12>E-Mail:</h12>
+		<input type = "text" name = "username"  id="usernamereg" placeholder="Benutzername..."/><br/>
+		<h13>Passwort:</h13>
+		<input type = "password" name = "password" id="passwordreg" placeholder="Passwort.."/><br/>
+		<h3>Passwort Wiederholen:</h3>
+		<input type="password" name="repPassword" id="repPassword" placeholder="Passwort wiederholen.."/><br/>
+		<button type="submit" id="submit">Registrieren</button>	
+	</form>
+	
+	
+        <!-- <form action="/registrieren" method="POST">
             <table>
                 <tr>
                     <td>
@@ -181,6 +199,6 @@
                 </tr>
             </table>
             <button type="submit">Register</button>
-        </form>
+        </form> -->
     </body>
 </html>

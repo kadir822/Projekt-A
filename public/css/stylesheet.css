@@ -1,10 +1,84 @@
 @charset "UTF-8";
 
 /*  */
+div.gallery {
+	margin-left: 5%;
+	margin-top: -53%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 270px;
+}
+
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery2 {
+	margin-left: 30%;
+	margin-top: -53%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 270px;
+    height: 250px;
+    background-color: 
+}
+div.gallery2:hover {
+    border: 1px solid #777;
+}
+
+div.gallery2 img {
+    width: 100%;
+    height:auto;
+}
+
+div.gallery3 {
+	margin-left: 57%;
+	margin-top: -53%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 270px;
+    height: 250px;
+}
+div.gallery3:hover {
+    border: 1px solid #777;
+}
+
+div.gallery3 img {
+    width: 100%;
+    height: 83%;;
+}
+
+div.gallery4 {
+	margin-left: 83%;
+	margin-top: -53%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+div.gallery4:hover {
+    border: 1px solid #777;
+}
+
+div.gallery4 img {
+    width: 100%;
+    height: auto;
+}
+
 h16{
 	position: absolute;
-	margin-top: -113%;
-	margin-left: 40.3%;
+	margin-top: -111.5%;
+	margin-left: 42%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 }
@@ -43,7 +117,7 @@ h16{
 #warenkorb_logo{
 	position: absolute;
 	margin-top: 0.8%;
-	margin-left: 64.3%;
+	margin-left: 63.3%;
 	height: 3%;
 	width: 1.5%;
 	border: 1px solid rgba(255, 255, 255, 0);	
@@ -59,7 +133,7 @@ h16{
     display: inline-block;
     font-size: 18px;
     margin-top: 0.5%;
-    margin-left: 64%;
+    margin-left: 63%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;	
@@ -74,7 +148,7 @@ h16{
 	position: absolute;
 	height: 250px;
 	width: 99%;
-	background-color: rgba(77, 77, 186, 0.11);
+	background-color: rgba(77, 77, 186, 0.05);
 }
 
 #downline2{
@@ -164,6 +238,7 @@ p.GBAY-Reg{
 	border: none;
 	cursor: pointer;
 	border-radius: 8px 8px 1px 1px;
+	z-index:1;
 }
 
 .dropbtn1:hover, .dropbtn1:focus {
@@ -181,13 +256,14 @@ p.GBAY-Reg{
 .pcbutton-content1 {
 	display: none;
 	position: absolute;
-	background-color: rgba(249, 16, 249, 0);
+	background-color: rgb(255, 255, 255);
 	min-width: 152px;
 	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.23);
+	box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.13);
 	font-size: 19px;
 	border-radius: 1px 1px 8px 8px;
 	font-family: Arial, Helvetica, sans-serif;
+	z-index:1;
 }
 
 .pcbutton-content1 a {
@@ -195,6 +271,7 @@ p.GBAY-Reg{
 	padding: 8px 14px;
 	text-decoration: blink;
 	display: block;
+	z-index:1;
 }
 
 .pcbutton-content1 a:hover {background-color: #f1f1f1}
@@ -225,17 +302,20 @@ p.GBAY-Reg{
 	display: inline-block;
 	margin-left: 18%;
 	margin-top: -8.9%
+
 }
 
 .tvbutton-content2 {
 	display: none;
 	position: absolute;
-	background-color: rgba(249, 16, 249, 0);
+	background-color: rgb(255, 255, 255);
 	min-width: 174px;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	font-size: 19px;
+	border-radius: 1px 1px 8px 8px;
 	font-family: Arial, Helvetica, sans-serif;
+	z-index:1;
 }
 
 .tvbutton-content2 a {
@@ -243,6 +323,7 @@ p.GBAY-Reg{
 	padding: 8px 14px;
 	text-decoration: none;
 	display: block;
+	z-index:1;
 }
 
 .tvbutton-content2 a:hover {background-color: #f1f1f1}
@@ -276,12 +357,14 @@ p.GBAY-Reg{
 .zubehoerbutton-content3 {
 	display: none;
 	position: absolute;
-	background-color: rgba(249, 16, 249, 0);
+	background-color: rgb(255, 255, 255);
 	min-width: 139px;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	font-size:19px;
+	border-radius: 1px 1px 8px 8px;
 	font-family: Arial, Helvetica, sans-serif;
+	z-index:1;
 }
 
 .zubehoerbutton-content3 a {
@@ -289,6 +372,7 @@ p.GBAY-Reg{
 	padding: 8px 14px;
 	text-decoration: none;
 	display: block;
+	z-index:1;
 }
 
 .zubehoerbutton-content3 a:hover {background-color: #f1f1f1}
@@ -323,12 +407,14 @@ p.GBAY-Reg{
 .konsolenbutton-content4 {
 	display: none;
 	position: absolute;
-	background-color: rgba(249, 16, 249, 0);
+	background-color: rgb(255, 255, 255);
 	min-width: 139px;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	font-size: 19px;
+	border-radius: 1px 1px 8px 8px;
 	font-family: Arial, Helvetica, sans-serif;
+	z-index:1;
 }
 
 .konsolenbutton-content4 a {
@@ -336,6 +422,7 @@ p.GBAY-Reg{
 	padding: 8px 14px;
 	text-decoration: none;
 	display: block;
+	z-index:1;
 }
 
 .konsolenbutton-content4 a:hover {background-color: #f1f1f1}
@@ -357,7 +444,7 @@ p.GBAY-Reg{
     display: inline-block;
     font-size: 18px;
     margin-top: 0.5%;
-    margin-left: 74.5%;
+    margin-left: 73.9%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -375,7 +462,7 @@ p.GBAY-Reg{
     display: inline-block;
     font-size: 18px;
     margin-top: 0.5%;
-    margin-left: 74.5%;
+    margin-left: 73.9%;
     cursor: pointer;
     border: 2px solid #ffffff;
     font-family: Arial, Helvetica, sans-serif;
@@ -613,7 +700,7 @@ h1{
 	position: absolute;
 	height: 90px;
 	width: 902px;
-	background-color: rgba(0, 0, 0, 0.05);	
+	background-color: rgba(12, 6, 6, 0.05);	
 }
 
 h5{
@@ -685,16 +772,91 @@ h4{
 	margin-left: 44%;
 	
 }
+/*Registrierung Seite---------------------------------------*/
+
+/*Email Schrift*/
+h12{
+	position: absolute;
+	margin-top: -87.6%;
+	margin-left: 27.08%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Passwort Schrift*/
+h13{
+	position: absolute;
+	margin-top: -84.5%;
+	margin-left: 27.08%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+	position: absolute;
+	margin-top: -81.5%;
+	margin-left: 27.08%;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+/*Email Zeile*/
+#usernamereg{
+	position:absolute;
+	margin-top: -86.01%;
+	margin-left: 26.9%;
+	width: 45%;
+	height: 3%;
+	padding-left: 1%;
+}
+/*Passwort*/
+#passwordreg{
+	position:absolute;
+	margin-top: -83.01%;
+	margin-left: 26.9%;
+	width: 45%;
+	height: 3%;
+	padding-left: 1%;	
+}
+
+#repPassword{
+	position:absolute;
+	margin-top: -80.01%;
+	margin-left: 26.9%;
+	width: 45%;
+	height: 3%;
+	padding-left: 1%;
+}
+
+#regbutton{
+	position: absolute;
+	margin-top: -76.8%;
+	margin-left: 26.9%;
+	width: 46.2%;
+	height: 5%;
+    color: white;
+    background-color: rgb(4, 65, 254);
+    border: none;	
+}
+/*Index--------------------------------------------------------------------*/
+/*Slogan-----------------------------------------------------*/
+#slogan{
+	position:absolute;
+	margin-top:-105.3%;
+	margin-left:0%;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	width: 99%;
+	height: 100%;
+}
 
 /*Gallerie Sale of the day------------------------------------------*/
 
 #saleoftheday{
 	position:absolute;
-	margin-top:-80%;
-	margin-left:32%;
+	margin-top:-53.33%;
+	margin-left:22%;
 	border: 1px solid rgba(0, 0, 0, 0.25);
 	width: 35%;
-	height: 45%;
+	height: 38.3%;
 }
 
 
@@ -1302,7 +1464,7 @@ h18{
 #appplemauspic{
 	position: absolute;
 	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-left: 14.1%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1328,7 +1490,7 @@ h18{
 #microsoftmauspic{
 	position: absolute;
 	margin-top: -56%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1360,6 +1522,7 @@ h18{
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
+	width: 13%;
 
 }
 
@@ -1382,11 +1545,12 @@ h18{
 /*Zweiter Artikel-----------------------------*/
 #razertastaturpic{
 	position: absolute;
-	margin-top: -76%;
+	margin-top: -75%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 18%;
 }
 
 #razertastaturwarenkorb{
@@ -1408,11 +1572,12 @@ h18{
 /*Dritter Artikel-----------------------------*/
 #appletastaturpic{
 	position: absolute;
-	margin-top: -56%;
+	margin-top: -55%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 19%;
 }
 
 #appletastaturwarenkorb{
@@ -1438,8 +1603,8 @@ h18{
 /*Erster Artikel-----------------------------*/
 #arlokabelpic{
 	position: absolute;
-	margin-top: -96%;
-	margin-left: 15.5%;
+	margin-top: -95%;
+	margin-left: 17.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1465,7 +1630,7 @@ h18{
 #applekabelpic{
 	position: absolute;
 	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1491,7 +1656,7 @@ h18{
 #v7kabelpic{
 	position: absolute;
 	margin-top: -56%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1521,11 +1686,12 @@ h18{
 /*Erster Artikel-----------------------------*/
 #ps4slim500pic{
 	position: absolute;
-	margin-top: -96%;
+	margin-top: -95%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 14%;
+	height: 18%;
 }
 
 #ps4slim500warenkorb{
@@ -1547,11 +1713,12 @@ h18{
 /*Zweiter Artikel-----------------------------*/
 #ps4slim1tbpic{
 	position: absolute;
-	margin-top: -76%;
+	margin-top: -74%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 14%;
+	height: 19%;
 }
 
 #ps4slim1tbwarenkorb{
@@ -1574,10 +1741,27 @@ h18{
 #ps4propic{
 	position: absolute;
 	margin-top: -56%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
+	height: 22%;
+}
 
+#redRow{
+	margin-top: -58.2%;
+	margin-left: 68%;
+	position: absolute;
+	height: 15%;
+	width: 15%;	
+}
+
+h19{
+	position: absolute;
+	margin-top: -54%;
+	margin-left: 77.3%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 45px;
+	color: red;
 }
 
 #ps4prowarenkorb{
@@ -1603,8 +1787,8 @@ h18{
 /*Erster Artikel-----------------------------*/
 #xboxonexpic{
 	position: absolute;
-	margin-top: -96%;
-	margin-left: 15.5%;
+	margin-top: -95%;
+	margin-left: 16.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1633,7 +1817,8 @@ h18{
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 20%;
 }
 
 #xboxones500warenkorb{
@@ -1659,7 +1844,8 @@ h18{
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 20%;
 }
 
 #xboxones1tbwarenkorb{
@@ -1688,7 +1874,8 @@ h18{
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 19%;
 }
 
 #nintendoswitchwarenkorb{
@@ -1710,11 +1897,11 @@ h18{
 /*Zweiter Artikel-----------------------------*/
 #nintendo3dspic{
 	position: absolute;
-	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-top: -74%;
+	margin-left: 13.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	height: 19%;
 }
 
 #nintendo3dswarenkorb{
@@ -1736,11 +1923,12 @@ h18{
 /*Dritter Artikel-----------------------------*/
 #nintendo2dspic{
 	position: absolute;
-	margin-top: -56%;
+	margin-top: -54%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 20%;
 }
 
 #nintendo2dswarenkorb{
@@ -1772,7 +1960,8 @@ h18{
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 20%;
 }
 
 #acermonitorwarenkorb{
@@ -1795,7 +1984,7 @@ h18{
 #asusmonitorpic{
 	position: absolute;
 	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1821,10 +2010,10 @@ h18{
 #samsungmonitorpic{
 	position: absolute;
 	margin-top: -56%;
-	margin-left: 15.5%;
+	margin-left: 12%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 20%;
 }
 
 #samsungmonitorwarenkorb{
@@ -1850,11 +2039,12 @@ h18{
 /*Erster Artikel-----------------------------*/
 #samsungtvpic{
 	position: absolute;
-	margin-top: -96%;
+	margin-top: -95%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 19%;
 }
 
 #samsungtvwarenkorb{
@@ -1877,7 +2067,7 @@ h18{
 #sonytvpic{
 	position: absolute;
 	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-left: 14%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1903,7 +2093,7 @@ h18{
 #lgtvpic{
 	position: absolute;
 	margin-top: -56%;
-	margin-left: 15.5%;
+	margin-left: 14.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1932,11 +2122,12 @@ h18{
 /*Erster Artikel-----------------------------*/
 #phillipsheimkinopic{
 	position: absolute;
-	margin-top: -96%;
+	margin-top: -93%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 16%;
 }
 
 #phillipsheimkinowarenkorb{
@@ -1959,7 +2150,7 @@ h18{
 #teufelheimkinopic{
 	position: absolute;
 	margin-top: -76%;
-	margin-left: 15.5%;
+	margin-left: 13.9%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
 
@@ -1984,11 +2175,12 @@ h18{
 /*Dritter Artikel-----------------------------*/
 #samsungheimkinopic{
 	position: absolute;
-	margin-top: -56%;
+	margin-top: -52%;
 	margin-left: 15.5%;
 	border: 2px solid rgba(253, 1, 1, 0);
 	background-color: rgba(255, 255, 255, 0);
-
+	width: 13%;
+	height: 10%;
 }
 
 #samsungheimkinowarenkorb{
