@@ -249,6 +249,27 @@ app.post('/registrieren', (request, response) => {
     });
 });
 
+//Suchleiste
+app.post('/index', (request, response) => {
+	const Suchen = request.body.Suchen;
+	
+	let errors = [];
+	if(Suchen == "" || Suchen == undefined) {
+		errors.push('Keine Eingabe erkannt');
+	}
+	
+	db.collection(DB_COLLECTION).findOne({'Suchen': Suchen}, (error, result) => {
+		if(result == null){
+			errors.push('Artikel existiert nicht.');
+			response.render('errors', {'error': errors});
+			return;
+		}else{
+			if(errors.length == 0){
+				
+			}
+		}
+	});
+});
 
 app.post('/login', (request, response) => {
    const username = request.body.username;
